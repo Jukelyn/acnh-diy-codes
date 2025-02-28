@@ -7,7 +7,17 @@ with open('diys.csv', mode='r', encoding="utf-8") as file:
     csv_reader = csv.reader(file)
     next(csv_reader)  # Skip header row
     for code in csv_reader:
-        hex_codes.append(code[1])
+        hex_codes.append(code[1].lower())
+
+with open('diy_codes_output.txt', 'r', encoding="utf-8") as diy_file:
+    diy_codes = diy_file.read().splitlines()
+
+for code in hex_codes:
+    if code[-3:] in diy_codes:
+        # code[-3:]
+        pass
+    else:
+        print(f"{code[-3:]} not in other file")
 
 output = []
 # Get last 3 characters, put at front
