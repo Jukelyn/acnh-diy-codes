@@ -1,17 +1,20 @@
-import re
-
-with open("list.txt", "r", encoding="utf-8") as file:
-    content = file.readlines()
-
-# Regex pattern to match "DIY: XXXX"
-pattern = re.compile(r"DIY:\s([0-9A-F]{4})")
-
-# Extract DIY codes
-diy_codes = [match.group(1)
-             for line in content for match in pattern.finditer(line)]
+import csv
 
 
-# Print the codes in groups of 40 with spaces in between each code
-for i in range(0, len(diy_codes), 40):
-    print(" ".join(diy_codes[i:i + 40]))
-    print()
+hex_codes = []
+
+with open('diys.csv', mode='r', encoding="utf-8") as file:
+    csv_reader = csv.reader(file)
+    next(csv_reader)  # Skip header row
+    for code in csv_reader:
+        hex_codes.append(code[1])
+
+output = []
+# Get last 3 characters, put at front
+# and 16A2 at the end with 0000 in between
+for code in hex_codes:
+    output.append(code[-3:] + "000016A2")
+
+with open('output.txt', 'w', encoding="utf-8") as f:
+    for i in range(0, len(output), 40):
+        f.write(" ".join(output[i:i+40]) + "\n")
