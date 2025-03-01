@@ -10742,23 +10742,3 @@ zen uniform; Color: Purple, 3A6C
 zen uniform; Color: Red, 384F
 zigzag shirt; Color: No Variations, 200C
 ぞうきんがけエプロン; Color: No Variations, 323B
-</pre>						</tbody>
-					</table>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr><th colspan="6" class="table-footer"><span class="small muted r"><a href="https://github.com/imthe666st/ACNH/" target="_blank">This data</a> was last updated on 1969-12-31 17:00:00 MT and weighs in at 0.99MiB. <span class="hovertext" title="SHA1: 9b6c1fafca6ef0d4cc2c00f1aab642de07ffa907&#010;Last Checked: 2025-02-28 04:38:05&#010;Last Fetched: 2021-12-20 09:35:27&#010;Last Updated: 1969-12-31 17:00:00&#010;This data courtesy of @_Ninji and imthe666st.">More Info</span> <a href="/tools/acnh/codes/item-list/?raw">Raw View</a></span></th></tr>
-	</tfoot>
-</table>
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function(event) { 
-	const table_inner = document.querySelector('#table-inner');
-  if (table_inner.classList.contains("hide")) {
-    table_inner.classList.remove("hide");
-  }
-});
-</script>
-</body>
-</html>
