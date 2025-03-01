@@ -30,3 +30,5 @@ Doing
 will start an order for these DIY recipes. Follow rules and instructions mentioned in the discord to proceed from this point.
 
 There are 24 groups of 40 DIY Recipes available from the source data, meaning 24 orders/trips need to be made to learn all of them.
+
+It can take anywhere from 3 to 4 hours to order, fly, get, and learn all of the DIY recipes in this list.
