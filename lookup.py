@@ -1,3 +1,6 @@
+"""Script to lookup DIY Recipe codes against the list to show which item they
+are associated to.
+"""
 import sys
 
 while True:

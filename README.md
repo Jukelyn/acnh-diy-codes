@@ -8,11 +8,14 @@ This project takes all the possible DIY recipes as reported in the dataset [here
 
 `grouped_diy_codes_output.txt` is the DIY codes in groups of 40 per line
 
+`lookup.py` is an extra script to lookup DIY Recipe codes against the list to show which item they
+are associated to.
+
 
 ## Usage
-`python main.py`: Runs the script.
+`python main.py`: Runs the main script. This script does *not* need to actually be ran unless the `list.txt` (from the above linked site) is updated in the future (date as of writing this is 1 March 2025). The outputted files are provided as either 1 DIY recipe per line or groups of 40 in `diy_codes_output.txt` and `grouped_diy_codes_output.txt`, respectively.
 
-The script does not need to actually be ran unless the `list.txt` (from the site) is updated in the future. The outputted files are provided as either 1 DIY recipe per line or groups of 40 in `diy_codes_output.txt` and `grouped_diy_codes_output.txt`, respectively.
+`python lookup.py`: Runs the lookup script. It prompts for the 11-digit code to be entered and it checks if the code is associated with an item in the `list.txt` file. If it is, it outputs the relevant information for that item.
 
 ## Example order
 Line 1 from `grouped_diy_codes_output.txt` contains the following:
