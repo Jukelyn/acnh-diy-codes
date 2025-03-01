@@ -21,7 +21,7 @@ def lookup_code(diy_id: str) -> None:
         diy_id (str): DIY ID to search
     """
     try:
-        with open("list.txt", "r", encoding="utf-8") as file:
+        with open("shortened_list.txt", "r", encoding="utf-8") as file:
             found = False
             for row in file:
                 if diy_id in row.upper():
@@ -32,9 +32,9 @@ def lookup_code(diy_id: str) -> None:
 
                     break
         if not found:
-            print(f"DIY ID {diy_id} not found in list.txt")
+            print(f"DIY ID {diy_id} not found in shortened_list.txt")
     except FileNotFoundError:
-        print("The file list.txt does not exist")
+        print("The file shortened_list.txt does not exist")
         sys.exit()
 
 

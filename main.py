@@ -27,4 +27,6 @@ with open("diy_codes_output.txt", "w", encoding="utf-8") as output_file:
 # Output codes 40 per line (for max inventory requests)
 with open('grouped_diy_codes_output.txt', 'w', encoding="utf-8") as f:
     for i in range(0, len(diy_codes), 40):
+        group_number = i // 40 + 1
+        f.write(f"Group {group_number}:\n")
         f.write(" ".join(diy_codes[i:i+40]) + "\n\n")
