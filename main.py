@@ -20,12 +20,12 @@ for i, code in enumerate(diy_ids):
     diy_ids[i] = code[-3:] + "000016A2"
 
 # Output codes (1 per line)
-with open("output/diy_codes_output.txt", "w", encoding="utf-8") as output_file:
+with open("outputs/diy_codes_output.txt", "w", encoding="utf-8") as f:
     for code in diy_ids:
-        output_file.write(code.lower() + "\n")
+        f.write(code.lower() + "\n")
 
 # Output codes (40 per line; for max inventory requests)
-with open('output/grouped_diy_codes_output.txt', 'w', encoding="utf-8") as f:
+with open('outputs/grouped_diy_codes_output.txt', 'w', encoding="utf-8") as f:
     for i in range(0, len(diy_ids), 40):
         group_number = i // 40 + 1
         f.write(f"Group {group_number}:\n")
