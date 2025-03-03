@@ -2,6 +2,8 @@
 This project takes all the possible DIY recipes as reported in the dataset [here](https://mpql.net/tools/acnh/codes/item-list/) and outputs the codes in the format that lets them be used in the OmegaToGo bots in the NooksTreasureIslands Discord.
 
 ## Information
+The DIY IDs in any of the lists and scripts are handled in hex (base-16) versus the game's internal ids (which are base 10) but they are the same.
+
 `list.txt` is the list of all the items with the DIY IDs included.
 
 `diy_codes_output.txt` is 1 DIY codes per line
@@ -11,6 +13,32 @@ This project takes all the possible DIY recipes as reported in the dataset [here
 `lookup.py` is an extra script to lookup DIY Recipe codes against the list to show which item they
 are associated to.
 
+It should also be noted that the following DIY recipes cannot be obtained:
+```
+brick pillar
+concrete pillar
+golden pillar
+low brick island counter
+low concrete island counter
+low golden island counter
+low marble island counter
+low simple island counter
+low steel island counter
+low wooden island counter
+marble pillar
+partition wall
+simple pillar
+steel pillar
+tall brick island counter
+tall concrete island counter
+tall golden island counter
+tall marble island counter
+tall simple island counter
+tall steel island counter
+tall wooden island counter
+wooden pillar
+```
+The **ONLY** way to unlock these DIYs is to play through the Happy Home Paradise DLC. See the [wiki](https://nookipedia.com/wiki/DIY_recipes/Niko) for more info.
 
 ## Usage
 `python main.py`: Runs the main script. This script does *not* need to actually be ran unless the `list.txt` (from the above linked site) is updated in the future (date as of writing this is 1 March 2025). The outputted files are provided as either 1 DIY recipe per line or groups of 40 in `diy_codes_output.txt` and `grouped_diy_codes_output.txt`, respectively.
