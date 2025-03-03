@@ -66,13 +66,12 @@ def print_summary() -> None:
         print(line)
 
     get_codes = input(
-        "\nDo you with to get the DIY ID codes for these? (y/n) ")
+        "\nDo you want to get the DIY ID codes for these? (y/n) ")
 
     if get_codes.lower() == "y":
         formatted_codes = get_diy_codes()
         print("\nFormatted DIY codes:")
         print(" ".join(formatted_codes))
-    sys.exit()
 
 
 def get_options() -> int:
@@ -185,6 +184,7 @@ def run_cli() -> None:
         if user_input == "":
             if len(rows) > 0:
                 print_summary()
+                output_to_file(rows)
             print("Exiting...")
             sys.exit()
         elif len(user_input) != 11 and len(user_input) != 3:
@@ -204,6 +204,45 @@ def proceed_lookup(items: list[str]):
     codes = get_diy_codes(items)
     print("\nFormatted DIY codes:")
     print(" ".join(codes))
+    output_to_file(codes)
+
+
+def output_to_file(info: list[str] = None):
+    """Prints results to file, if wanted."""
+    if not info:
+        print("There is nothing to output. Exiting...")
+        sys.exit()
+
+    output = input("\nWould you like these results saved to a file? (y/n) ")
+
+    if output.lower() == "y":
+        while True:
+            try:
+                grouping_msg = "Would you liked them grouped? "
+                grouping_msg += "If so, enter the number of DIY "
+                grouping_msg += "codes per group: "
+                groups_of = input(f"\n{grouping_msg}")
+                if groups_of.lower() == "quit" or groups_of.lower() == "q":
+                    print("Exiting...")
+                    sys.exit()
+
+                groups_of = int(groups_of)
+                if groups_of < 1:
+                    raise ValueError
+                break
+            except (ValueError, TypeError):
+                print("Invalid input, try again or enter \"(Q)uit\" to quit.")
+
+        with open('outputs/lookup_output.txt', 'w', encoding="utf-8") as f:
+            for i in range(0, len(info), groups_of):
+                group_number = i // groups_of + 1
+                f.write(f"Group {group_number}:\n")
+                f.write(" ".join(info[i:i+groups_of]) + "\n\n")
+
+        print("DIY Codes were saved to outputs/lookup_output.txt")
+    else:
+        print("Exiting...")
+        sys.exit()
 
 
 def main():
