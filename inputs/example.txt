@@ -40,3 +40,28 @@ wooden pillar
 not found
 p=G;:*ftDCE\?UBZ.-c9-4.#)p?,\
 }17kfm[91)2d5gm#gr-{.#5;v}5?y
+brick pillar
+concrete pillar
+garbage-heap wall
+golden pillar
+low brick island counter
+low concrete island counter
+low golden island counter
+low marble island counter
+low simple island counter
+low steel island counter
+low wooden island counter
+marble pillar
+partition wall
+salmon bagel sandwich
+simple pillar
+squid-ink curry
+steel pillar
+tall brick island counter
+tall concrete island counter
+tall golden island counter
+tall marble island counter
+tall simple island counter
+tall steel island counter
+tall wooden island counter
+wooden pillar

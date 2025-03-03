@@ -11,7 +11,7 @@ def clear_terminal() -> None:
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-lines = []
+rows = []
 
 
 def lookup_code(diy_id: str) -> None:
@@ -28,7 +28,7 @@ def lookup_code(diy_id: str) -> None:
                     found = True
 
                     print(f"\nFound: {row.strip()}\n")
-                    lines.append(row.strip())
+                    rows.append(row.strip())
 
                     break
         if not found:
@@ -38,13 +38,15 @@ def lookup_code(diy_id: str) -> None:
         sys.exit()
 
 
-def get_diy_codes() -> list[str]:
+def get_diy_codes(lines: list[str] = None) -> list[str]:
     """Finds the DIY ID from the lines and outputs an array containing the
     codes for them.
 
     Returns:
         list[str]: Array containing the codes for the DIY recipes
     """
+    if not lines:
+        lines = rows
     codes = []
 
     for line in lines:
@@ -60,7 +62,7 @@ def print_summary() -> None:
     clear_terminal()
     print("Here are the codes you searched for:\n")
 
-    for line in lines:
+    for line in rows:
         print(line)
 
     get_codes = input(
@@ -68,7 +70,7 @@ def print_summary() -> None:
 
     if get_codes.lower() == "y":
         formatted_codes = get_diy_codes()
-        print("\nFormatted DIY ID codes:")
+        print("\nFormatted DIY codes:")
         print(" ".join(formatted_codes))
     sys.exit()
 
@@ -118,6 +120,7 @@ def get_file_name() -> str:
             print("Exiting...")
             sys.exit()
         if os.path.isfile(f"inputs/{file_name}.txt"):
+            print()
             break
 
         print(f"The file {file_name}.txt does not exist.")
@@ -136,13 +139,13 @@ def parse_file(file_name: str) -> list[str]:
     Returns:
         list[str]: A list containing the items described in the file.
     """
-    items = []
+    items = set()
     with open(f"inputs/{file_name}.txt", "r", encoding="utf-8") as f:
         for item in f:
-            items.append(item.strip())
+            items.add(item.strip())
 
-    found_items = []
-    not_found_items = []
+    found_items = set()
+    not_found_items = set()
     try:
         with open("inputs/list.txt", "r", encoding="utf-8") as f:
             file_lines = f.readlines()
@@ -152,22 +155,25 @@ def parse_file(file_name: str) -> list[str]:
                     # Search item names only
                     row_item = row.split(',')[0].strip()
                     if item.upper() == row_item.upper():
-                        print(f"\nFound: {row.strip()}")
-                        found_items.append(row.strip())
+                        print(f"Found: {row.strip()}")
+                        found_items.add(row.strip())
                         found = True
                         break
                 if not found:
-                    not_found_items.append(item)
+                    not_found_items.add(item)
     except FileNotFoundError:
         print("The file list.txt does not exist.")
         print("Exiting...")
         sys.exit()
 
-    # print(not_found_items)
     if len(not_found_items) > 0:
-        print("\nThe following items were not found in list.txt:")
-        for item in not_found_items:
-            print(f" - {item}")
+        msg = "There are items in the provided file that are not"
+        msg += " in list.txt, would you like to view these items? (y/n) "
+        display_not_found = input(msg)
+        if display_not_found.lower() == "y":
+            print("\nThe following items were not found in list.txt:")
+            for item in not_found_items:
+                print(f" - {item}")
 
     return found_items
 
@@ -177,7 +183,7 @@ def run_cli() -> None:
     while True:
         user_input = input("Paste code to search (or leave blank to quit): ")
         if user_input == "":
-            if len(lines) > 0:
+            if len(rows) > 0:
                 print_summary()
             print("Exiting...")
             sys.exit()
@@ -189,9 +195,33 @@ def run_cli() -> None:
             lookup_code(lookup)
 
 
-match get_options():
-    case 1:
-        file = get_file_name()
-        parse_file(file)
-    case 2:
-        run_cli()
+def proceed_lookup(items: list[str]):
+    """Prints the formatted DIY codes.
+
+    Args:
+        items (list[str]): The list of items to be processed
+    """
+    codes = get_diy_codes(items)
+    print("\nFormatted DIY codes:")
+    print(" ".join(codes))
+
+
+def main():
+    """Main script method"""
+    match get_options():
+        case 1:
+            file = get_file_name()
+            lookupable_items = parse_file(file)
+            proceed = input(
+                "Would you like the DIY codes for valid items? (y/n) ")
+            if proceed.lower() == "y":
+                proceed_lookup(lookupable_items)
+            else:
+                print("\nExiting...")
+                sys.exit()
+        case 2:
+            run_cli()
+
+
+if __name__ == "__main__":
+    main()
