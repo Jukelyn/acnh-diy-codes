@@ -1,0 +1,416 @@
+Name,Inventory Image,Storage Image,DIY,Stack Size,Buy,Sell,Exchange Price,Exchange Currency,Source,Source Notes,Season/Event,Season/Event Exclusive,HHA Base Points,Tag,Color 1,Color 2,Food Power,Version Added,Unlocked?,Inventory Filename,Storage Filename,Internal ID,Unique Entry ID,Internal ID as hex
+acorn,,,No,30,NFS,200.0,,,Hardwood Tree,Shaking,acorns and pine cones,Yes,0,Etc,,,,1.0.0,Yes,DIYAcorn,DIYAcorn,5727,LWRPyLkySfCNkDvdv,165F
+apple,,,No,10,400,100.0,,,Nook's Cranny; Apple Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Apple,Apple,2213,iTWs2LBrcFu8XyDMF,08A5
+apple tree,,,No,1,NFS,300.0,,,Planting an apple,,,,0,Plants,,,,1.0.0,Yes,PltApple,PltApple4,3360,4BFZn59FMC5eyCKXS,0D20
+Aquarius fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Aquarius,Yes,0,Etc,,,,1.0.0,Yes,StarpieceAquarius,StarpieceAquarius,5986,sHWduQNusYLWRjhzb,1762
+arched tile path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerStonePattern,8776,yDajuWo93WGgTR4bJ,2248
+Aries fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Aries,Yes,0,Etc,,,,1.0.0,Yes,StarpieceAries,StarpieceAries,5988,D5JE2Ypt5vZ3C4EM6,1764
+bamboo piece,,,No,30,NFS,80.0,,,Chopping a bamboo tree,,,,0,Etc,,,,1.0.0,Yes,DIYBamboo,DIYBamboo,2501,RJpF9Apqi52AqPP25,09C5
+bamboo shoot,,,No,10,NFS,250.0,,,Dig Spot; Daisy Mae,Near a bamboo tree,,,0,Plants,,,1.0,1.0.0,Yes,BanbooShoot,BambooShoot,2295,kTmS9FFMxJFuCS7vr,08F7
+bamboo tree,,,No,1,NFS,1500.0,,,Planting a bamboo shoot,,,,0,Plants,,,,1.0.0,Yes,PltBamboo,PltBamboo4,2815,m6And8qdTfySMh9kR,0AFF
+Basic Cooking Recipes,,,No,1,4980,,,,Nook's Cranny,,,,0,Unnecessary,,,,2.0.0,Yes,Book,Cookingbook1,14811,qb2eaBbQEsMwQz5v3,39DB
+Be a Chef! DIY Recipes+,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,DIYRecipePlus,HowtoBookDIYRecipePlus,14691,ssswcjPYorzGtHwqS,3963
+Bell bag,,,No,99,NFS,,,,Glowing dig spot,,,,0,Etc,,,,1.0.0,Yes,MoneyBag010,PhotoStudioBellBag,7731,MwHcZBfqcJ5vJzRqZ,1E33
+Bell coin,,,No,9,NFS,,,,Shaking a hardwood or cedar tree,,,,0,Etc,,,,1.0.0,Yes,Coin,PhotoStudioBell,7730,jNjH659eycYXADzaq,1E32
+Bell voucher,,,No,10,NFS,3000.0,500.0,Nook Miles,Nook Miles Redemption; May Day Tour,Found under the Special tab of the Nook Miles Redemption service.,,,103,Etc,,,,1.0.0,Yes,BellExchangeTicket,BellExchangeTicket,9964,Ekx2qXMQw3nrBxbwC,26EC
+black cosmos,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Black,Green,,1.0.0,Yes,Cosmos5,FlwCosmosBlack,2875,QveR5KriJ63ZvAmQs,0B3B
+black lilies,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Black,Green,,1.0.0,Yes,Yuri5,FlwYuriBlack,2999,GJEkbwJexHSSq3Kvp,0BB7
+black roses,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Black,Green,,1.0.0,Yes,Rose6,FlwRoseBlack,2955,RAxXqgdwa6Jb3fKFX,0B8B
+black tulips,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Black,Green,,1.0.0,Yes,Turip5,FlwTulipBlack,2903,WGvGEjXRYjucLHity,0B57
+black wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperBlack,WPaperBlack,7698,e726AGFuzKwPdeNZu,1E12
+black-cosmos plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltCosmos5,PltCosmosBlack3,3834,o54h94yBpGiSSfKkr,0EFA
+black-lily plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltYuri5,PltYuriBlack3,3896,RgsTH72gphGY6AHsK,0F38
+black-rose plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltRose6,PltRoseBlack3,3874,suqNAcWRFj6JJZKuk,0F22
+black-tulip plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltTurip5,PltTulipBlack3,3848,2aiEhGHeGqQG725zX,0F08
+Blathers's tent marker,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MuseumTent,2755,57HSnpzwFHuTfBiyf,0AC3
+blue feather,,,No,3,NFS,200.0,,,Catching with a net,,Festivale,Yes,0,Etc,Blue,Blue,,1.7.0,Yes,FeatherBlu,FeatherBlue,3542,RRAxA9JnFuW8K7v7s,0DD6
+blue hyacinths,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Blue,Green,,1.0.0,Yes,Hyacinth6,FlwHyacinthBlue,3748,K6yui8FLmJvwNcfL4,0EA4
+blue ornament,,,No,30,NFS,50.0,,,Cedar Tree,Shaking decorated trees,ornaments,Yes,0,Etc,,,,1.0.0,Yes,ChristmasOrnamentB,DIYOrnamentBlue,5731,s38Tms3PpjpWGnFtn,1663
+blue pansies,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Blue,Green,,1.0.0,Yes,Pansi5,FlwPansyBlue,2927,mNBAQ7xCjndP63TW8,0B6F
+blue roses,,,No,10,NFS,1000.0,,,Picking flowers,,,,87,Plants,Blue,Green,,1.0.0,Yes,Rose7,FlwRoseBlue,2959,C39ncDcJ44My6qoQm,0B8F
+blue windflowers,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Blue,Green,,1.0.0,Yes,Anemone5,FlwAnemonesBlue,3717,JmHWXFZvvgpJYrg8Z,0E85
+blue wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperBlue,WPaperBlue,7692,FK3PwoipGayPzS4SW,1E0C
+blue-hyacinth plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth6,PltHyacinthBlue3,3920,MNT54SyQWEWfaQAc6,0F50
+blue-hydrangea bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,hydrangea,No,0,Plants,,,,1.2.0,Yes,PltHydrangeaBlue,PltHydrangeaBlue2,3800,trgrtapDMZkkyDfiz,0ED8
+blue-hydrangea start,,,No,10,280,70.0,,,Leif,,hydrangea,No,0,Plants,,,,1.2.0,Yes,SeedHydrangeaBlue,SeedHydrangeaBlue,3798,GNsNR4uHsjm4B7XJr,0ED6
+blue-pansy plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltPansi5,PltPansyBlue3,3860,Zd4CiamQfSEbYcymn,0F14
+blue-rose plant,,,No,1,NFS,1000.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltRose7,PltRoseBlue3,3876,XXDs7bACfxsb5ospo,0F24
+blue-windflower plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltAnemone5,PltAnemonesBlue3,3902,A4yXEFxhamZ2fCfmG,0F3E
+Body-Paint Costume Tips,,,No,1,NFS,,2400.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.5.0,Yes,HowtoBookHair,HowtoBookBodyColor,13256,k36tjaygAsSjGYcmj,33C8
+bokjumeoni lucky pouch,,,No,10,500,125.0,,,Nook Shopping Seasonal,,Seollal,Yes,0,Etc,,,,1.7.0,Yes,OtoshidamaOpenKr,OtoshidamaKr,13955,bsrwPHAW9y9WDQysp,3683
+boot,,,No,1,NFS,10.0,,,Fishing,Medium shadow,,,0,Etc,,,,1.0.0,Yes,Boots,TrashBoot,3469,7jBpMwNw25uQW345e,0D8D
+brick path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerBrick,8774,oHZbjoqc3QKK6WLCC,2246
+bridge construction kit,,,Yes,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,BridgeLogReserveKit,7211,qT8ewTJpgMGSEENoY,1C2B
+bridge marker kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,BridgeReserveKit,4310,nS86mCT42JirpqqPY,10D6
+brown sugar,,,Yes,50,NFS,210.0,,,Cooking,,,,103,Etc,,,,2.0.0,Yes,FlourSugarbrown,FlourSugarbrown,13998,FmnEXrWrhmiq4TcxG,36AE
+brown wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperBrown,WPaperBrown,7696,hJhmHZLzeNSDBEoSo,1E10
+campsite construction kit,,,Yes,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,CampsiteReserveKit,5166,ezCup9En25XEqADNt,142E
+campsite moving kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MovingKitCampsite,6841,ZXGmQ8gab2KnTmP5a,1AB9
+Cancer fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Cancer,Yes,0,Etc,,,,1.0.0,Yes,StarpieceCancer,StarpieceCancer,5991,SmqC4auAEN7GSNraA,1767
+candy,,,No,30,120,30.0,,,Nook's Cranny; All villagers,Sold in Nook's Cranny during the month of October; gifted by talking to villagers during Halloween,Halloween (days before); Halloween,Yes,0,Etc,,,1.0,1.5.0,Yes,Candy,Candy,13197,ipLZk6AGCSZ7yoMui,338D
+Capricorn fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Capricorn,Yes,0,Etc,,,,1.0.0,Yes,StarpieceCapricornus,StarpieceCapricornus,5985,Yv5hZXu5AkG7sWNQ6,1761
+carrot,,,No,10,NFS,350.0,,,Picking carrots,,,,0,Plants,,,1.0,2.0.0,Yes,Carrot,Carrot,3044,F5FN4j4aMLH5Dke9P,0BE4
+carrot start,,,No,10,280,70.0,,,Leif,,,,0,Plants,,,,2.0.0,Yes,SeedlingVegetable,SeedCarrot,3045,vJBzjThWG29k6fZXf,0BE5
+cedar sapling,,,No,10,640,160.0,,,Nook's Cranny,,,,0,Plants,,,,1.0.0,Yes,SeedlingConifer,SeedCedar,2800,LP6TnsveSD3AGAMmQ,0AF0
+cedar tree,,,No,1,NFS,240.0,,,Planting a cedar sapling,,,,0,Plants,,,,1.0.0,Yes,PltConifer,PltCedar4,2805,scFwAJ9XXGD3G6NbX,0AF5
+chartreuse wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperLightGreen,WPaperLightGreen,7686,RWcJQMBA79cybhZDM,1E06
+cherry,,,No,10,400,100.0,,,Nook's Cranny; Cherry Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Cherry,Cherry,2287,vAujDBhEiEHX39WDn,08EF
+cherry tree,,,No,1,NFS,300.0,,,Planting a cherry,,,,0,Plants,,,,1.0.0,Yes,PltCherry,PltCherry4,3381,GhjdFWs3sFftbtd2W,0D35
+cherry-blossom petal,,,No,10,NFS,200.0,,,Catching with a net,,cherry-blossom petals,Yes,0,Etc,,,,1.0.0,Yes,Sakurapetal,Sakurapetal,5859,7hYtxcDFLTySLx8Nz,16E3
+clay,,,No,30,NFS,100.0,,,Hitting a rock,,,,0,Etc,,,,1.0.0,Yes,OreClay,DIYClay,3090,3yoCRN4WNjdYKQEJB,0C12
+cliff construction permit,,,No,1,NFS,,6000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,ToolCliffMaker,FtrCliffMaker,8781,WQsguRuMd9bwEFu5j,224D
+clump of weeds,,,No,99,NFS,10.0,,,On ground,,,,0,Plants,,,,1.0.0,Yes,Weed,PltWeed,2624,GEtNwS4vwNF7oBvw9,0A40
+coconut,,,No,10,NFS,250.0,,,Coconut Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Coconut,Coconut,2288,eHNoTML3CsNoaHoZ9,08F0
+coconut tree,,,No,1,NFS,500.0,,,Planting a coconut,,,,0,Plants,,,,1.0.0,Yes,PltPalm,PltPalm4,2810,c4FSMaXCEqboxnQzT,0AFA
+communicator,,,No,10,NFS,,,,Dive spot,Only available while on a quest for Gullivarrr,,,0,Unnecessary,,,,1.3.0,Yes,PirateQuest,PirateQuest,13105,4MLwWcvfFjET6hgMc,3331
+communicator part,,,No,10,NFS,,,,Clam dig spot,Only available while on a quest for Gulliver,,,0,Unnecessary,,,,1.0.0,Yes,JohnyParts,JohnnyQuest1,2381,XiM7GBuMGY9HReqm2,094D
+conch,,,No,10,NFS,700.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell1,ShellDriftHora,1376,rtDktiz93Crc46m5c,0560
+coral,,,No,10,NFS,500.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell3,ShellDriftSango,1380,4CHLh45qehAS8wHpb,0564
+cowrie,,,No,10,NFS,60.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell7,ShellDriftTakara,1382,zxAax3FMiJMX9Chet,0566
+Cozy Turkey Day DIY,,,No,1,19800,,,,Franklin; Nook's Cranny,Obtained from Franklin after completing 4 recipes with secret ingredient; sold in Nook's Cranny after Turkey Day until the end of November,Turkey Day; Turkey Day (days after),Yes,0,Unnecessary,,,,1.6.0,Yes,Book,DIYbookHarvest,13787,WfSB5eBmXt4vKqRJe,35DB
+custom design path permit,,,No,1,NFS,,2300.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerMydesign,9771,gsKtaovfLwrynQzh2,262B
+Custom Design Pro Editor,,,No,1,NFS,,800.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,MyDesignPro,HowtoBookMydesingPro,12185,MMYBdDHWn2kW2Maze,2F99
+Custom Design Pro Editor+,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.9.0,Yes,MyDesignPro,HowtoBookMydesingPro2,13195,CdzhKtEHzrYPLZfRn,338B
+Custom Designs Patterns+,,,No,1,NFS,,1800.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,MyDesignPro,HowtoBookMydesignPatternPlus,14692,jEPKJAeJzjPjMtxhp,3964
+Custom Designs Portal,,,No,1,NFS,,300.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.9.0,Yes,MyDesignPro,HowtoBookMydesignShowcase,14158,mnAwALPx9PrztGiKX,374E
+Custom Fencing in a Flash,,,No,1,NFS,,2500.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,HowtoBookExpansion,HowtoBookFenceRemake,14694,QWBuACsymBtKAqEbm,3966
+customizable phone case kit,,,No,1,NFS,9000.0,1800.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Etc,,,,1.0.0,Yes,SmartphoneCase,SmartphoneCase_Remake_0_0,8760,nwyFbGaLtmPjknPTY,2238
+customization kit,,,No,50,600,150.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,RemakeKit,RemakeKit,2513,Ld3gGWdjsFZscs6Qq,09D1
+dark dirt path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerDarkSoil,8775,E6p3k7jqPy5nQZqkx,2247
+delivery,,,No,1,NFS,,,,Nook Shopping,,,,0,Unnecessary,,,,1.0.0,Yes,Cardboard,DummyCardboard,4645,dSEW4GQniyS8P6SnE,1225
+delivery,,,No,1,NFS,,,,NotAvailable,,Happy Home Paradise,Yes,0,Unnecessary,,,,2.0.0,Yes,OneroomCardboard,DummyOneroomCardboard,14873,6dGwjf4o45MpovX2d,3A19
+delivery,,,No,1,NFS,,,,Hotel Souvenir Shop,,,,0,Unnecessary,,,,3.0.0,Yes,HotelCardboard,DummyHotelCardboard,774,H5caXiNFoNJSfqahB,0306
+delivery box,,,No,1,NFS,,,,Delivering item for a villager,,,,0,Unnecessary,,,,1.0.0,Yes,Present2,QuestWrappingBox,4245,KGs8SGuNQXerMe7xC,1095
+DIY for Beginners,,,No,1,480,,,,Nook's Cranny,,,,0,Unnecessary,,,,1.0.0,Yes,Book,DIYbook1,5603,Xg3ZJkcs2GKKj629h,15E3
+Dream Bell exchange ticket,,,No,10,NFS,5000.0,,,Luna,Received in the mail the day after uploading your island to Luna's Dream Library,,,0,Etc,,,,1.4.0,Yes,DreamBellExchangeTicket,DreamBellExchangeTicket,13228,oqF5TeSPnfuFD94kf,33AC
+dream bridge kit,,,No,1,NFS,,,,Slumber Islands,,,,0,Unnecessary,,,,3.0.0,Yes,TentWhite,CloudIslandBridgeBuildKit,909,DtF73RaLhFhKhvkcJ,038D
+dream gold nugget,,,No,10,NFS,,,,Slumber Islands,,,,0,Unnecessary,,,,3.0.0,Yes,Gold_Ore,DreamGlold,1301,GF9MxkaE4br9DdbiG,0515
+dream incline kit,,,No,1,NFS,,,,Slumber Islands,,,,0,Unnecessary,,,,3.0.0,Yes,TentWhite,CloudIslandSlopeBuildKit,910,GM3p4nRs2dJZGYsir,038E
+dream moving kit,,,No,1,NFS,,,,Slumber Islands,,,,0,Unnecessary,,,,3.0.0,Yes,TentWhite,CloudIslandHouseMoveKit,906,DoSvJupuidnaN49cs,038A
+earth egg,,,No,30,NFS,200.0,,,Dig Spot,,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggGround,EggGround,12509,GfuzxkKwqvLMLq4TJ,30DD
+egg message bottle,,,No,1,NFS,,,,Beach,,Bunny Day (days before); Bunny Day,Yes,0,Unnecessary,,,,1.1.0,Yes,MessageBottleEgg,MessageBottleEgg,12544,AQictTWfneH93yYQM,3100
+elegant mushroom,,,No,10,NFS,10000.0,,,On ground,,mushrooms,Yes,0,Plants,,,1.0,1.0.0,Yes,Mush0,MushSplendid,3276,kHtGRmaZmf3foEhwz,0CCC
+empty can,,,No,1,NFS,10.0,,,Fishing,Small shadow,,,0,Etc,,,,1.0.0,Yes,Can,TrashCan,3466,rqiTcqwQexTmYoPTH,0D8A
+Exploring New Eye Colors,,,No,1,NFS,,2400.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.5.0,Yes,HowtoBookHair,HowtoBookEyeColor,13257,YjrQJLTjgggwSYDYM,33C9
+festive wrapping paper,,,Yes,10,NFS,300.0,,,Crafting,,Toy Day,Yes,201,Etc,,,,1.6.0,Yes,WPaperOrnament,WPaperOrnament,13792,S2tzdsHpXp8ReMh4N,35E0
+fish bait,,,Yes,10,NFS,200.0,,,Crafting,,,,103,Etc,,,,1.0.0,Yes,FishBait,FishBait,4549,Ghm4XtGMDXTpyFQSj,11C5
+flat mushroom,,,No,10,NFS,200.0,,,On ground,,mushrooms,Yes,0,Plants,,,1.0,1.0.0,Yes,Mush3,MushFlat,3279,Ym7BRDNMQF6nZL446,0CCF
+flour,,,Yes,50,NFS,210.0,,,Cooking,,,,103,Etc,,,,2.0.0,Yes,FlourWheat,FlourWheat,13994,uSP4sg4TWK34nZcYs,36AA
+fossil,,,No,1,NFS,100.0,,,Dig Spot,,,,0,FossilUnknown,,,,1.0.0,Yes,Fossil,Fossil,2579,ZwqydviSR4WiRWdDA,0A13
+fountain firework,,,No,1,600,150.0,500.0,Bells,Redd's Raffle; Nook's Cranny,Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August,Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5),No,0,Etc,,,,1.4.0,Yes,PutHanabi,Fireworks,13106,z2n48mYextDwNiear,3332
+Gemini fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Gemini,Yes,0,Etc,,,,1.0.0,Yes,StarpieceGemini,StarpieceGemini,5990,FKd48SRH79uQKweuZ,1766
+giant clam,,,No,10,NFS,900.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell2,ShellDriftSyako,1381,yzrzGTGG6mdN2N4d4,0565
+gift,,,No,1,NFS,,,,Wrapping a present,,Toy Day,Yes,0,Etc,,,,1.6.0,Yes,WBagOrnament,DummyWrappingOrnament,13793,taPAjf8b8PS88FdZA,35E1
+glowing moss,,,No,50,NFS,25.0,,,Kapp'n islands,,,,0,FieldWeedLight,,,,2.0.0,Yes,PltWeedLight,PltWeedLight,12550,84CP4criAaKQBy6ES,3106
+gold nugget,,,No,30,NFS,10000.0,,,Hitting a rock,,,,0,Etc,,,,1.0.0,Yes,Gold_Ore,DIYGold,2505,i7QscMET7RcTdffLC,09C9
+gold ornament,,,No,30,NFS,50.0,,,Cedar Tree,Shaking decorated trees,ornaments,Yes,0,Etc,,,,1.0.0,Yes,ChristmasOrnamentC,DIYOrnamentGold,5732,PDc3gmJTvyra4nNb6,1664
+gold roses,,,No,10,NFS,1000.0,,,Picking flowers,,,,87,Plants,Yellow,Yellow,,1.0.0,Yes,GoldenRose,FlwRoseGold,2963,6B9RaLkgxyFA72rdm,0B93
+gold wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperGold,WPaperGold,7695,nKFEifDX73E7y86s3,1E0F
+gold-rose plant,,,No,1,NFS,1000.0,,,Breeding,Black roses watered with gold watering can,,,0,Plants,,,,1.0.0,Yes,PltGoldenRose,PltRoseGold3,3878,vgqcsR2h6B96skooq,0F26
+gray wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperGray,WPaperGray,7697,yiydxSjmgGZiNBxsm,1E11
+green feather,,,No,3,NFS,200.0,,,Catching with a net,,Festivale,Yes,0,Etc,Green,Green,,1.7.0,Yes,FeatherGrn,FeatherGreen,3543,RrZGEGmxJyw99NKKE,0DD7
+green mums,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Green,Green,,1.0.0,Yes,Mum4,FlwMumGreen,5175,iZDGXg9rxMCXkkRXQ,1437
+green pumpkin,,,No,10,NFS,350.0,,,Picking pumpkins,,Halloween (days before); Halloween,No,0,Plants,,,1.0,1.5.0,Yes,SquashGreen,SquashGreen,4527,v6GS66X8t7y82KFEB,11AF
+green wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperGreen,WPaperGreen,7687,3mskzQhZ5uWSBJ373,1E07
+green-mum plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltMum4,PltMumGreen3,3934,ejT89srWvyFe6eQKf,0F5E
+gyroid fragment,,,No,1,NFS,414.0,,,Dig Spot; Beach; Brewster,,,,0,HaniwaPiece,,,,2.0.0,Yes,HaniwaPiece,HaniwaPiece,14546,uPiDr9EyiDficmje4,38D2
+hardwood,,,No,30,NFS,60.0,,,Chopping a tree,,,,0,Etc,,,,1.0.0,Yes,DIYWoodHard,DIYWoodHard,2769,ni3n8DjyCZ9cghTD2,0AD1
+hardwood tree,,,No,1,NFS,240.0,,,Planting a sapling,,,,0,Plants,,,,1.0.0,Yes,PltOak,PltOak4,2799,iGMxqfQ39pMGzJrji,0AEF
+heart crystal,,,No,30,NFS,100.0,,,Reese,Reward for helping Cyrus & Reese during Wedding Season,Wedding Season,Yes,0,Etc,,,,1.2.0,Yes,Love,Love,12546,Seo4ym9pKPhr7A6yb,3102
+Hip Reaction Collection,,,No,1,NFS,,2700.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.6.0,Yes,HowtoBookExpansion,HowtoBookReaction,13610,Eyap99SoXYKQtJdtS,352A
+holly bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,holly,No,0,Plants,,,,1.2.0,Yes,PltHolly,PltHolly2,3027,iS4C5XqHay6jggFoL,0BD3
+holly start,,,No,10,280,70.0,,,Leif,,holly,No,0,Plants,,,,1.2.0,Yes,SeedHolly,SeedHolly,3024,ikDCfcT8TcvyPNH8Y,0BD0
+housing kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,NnpcNewHousingkit,3349,3H4M8fad4hXPPK9tq,0D15
+incline marker kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,SlopeReserveKit,4311,Nmp2P7XPoEWX2tQG6,10D7
+iron nugget,,,No,30,NFS,375.0,,,Hitting a rock,,,,0,Etc,,,,1.0.0,Yes,OreIron,DIYIron,2511,smkrptPsq6cK6e7ya,09CF
+Island Life 101 Service,,,No,1,NFS,,400.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,LifeSupport,HowtoBookLifeSupportTips,14796,mHGb9ywAQWtX34waj,39CC
+large snowflake,,,No,10,NFS,2500.0,,,Snowboy,Reward for making a perfect Snowboy,snowflakes,Yes,0,Etc,,,,1.0.0,Yes,SnowCrystalLarge,SnowCrystalLarge,3540,roPJbuZmNfYv9k3Q5,0DD4
+large star fragment,,,No,10,NFS,2500.0,,,Wishing on shooting stars,,,,0,Etc,,,,1.0.0,Yes,StarPieceRare,StarpieceRare,5984,FA6nhbrBzK7ESdoDL,1760
+leaf egg,,,No,30,NFS,200.0,,,Hardwood Tree,Shaking decorated trees,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggLeaf,EggLeaf,12511,3rZgwsLcirdRrMrND,30DF
+Leo fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Leo,Yes,0,Etc,,,,1.0.0,Yes,StarpieceLeo,StarpieceLeo,5992,kxQAgnSXcGbYHtNLB,1768
+Libra fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Libra,Yes,0,Etc,,,,1.0.0,Yes,StarpieceLibra,StarpieceLibra,5994,SRpunGqz97ZSyQeKq,176A
+light-blue wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperLightBlue,WPaperLightBlue,7689,k6ZfmjnoDpGqHWweS,1E09
+lily-of-the-valley plant,,,No,1,NFS,222.0,,,5-star town status,,,,0,Plants,,,,1.0.0,Yes,PltSuzuran,PltSuzuran2,7651,LXttqtLN2HF8PhQbu,1DE3
+lollipop,,,No,30,NFS,120.0,,,All villagers,Reward for gifting candy on Halloween,Halloween,Yes,0,Etc,,,1.0,1.5.0,Yes,Lollipop,Lollipop,13196,9otCnhD4JA4YbTr8u,338C
+lost item,,,No,1,NFS,,,,On ground,,,,0,Unnecessary,,,,1.0.0,Yes,Porch,LostQuestBag,2374,uncR4zC9xppuSkiij,0946
+lost item,,,No,1,NFS,,,,On ground,,,,0,Unnecessary,,,,1.0.0,Yes,Book,LostQuestBook,2375,ymD8pZhYvP99PRiYr,0947
+lost item,,,No,1,NFS,,,,On ground,,,,0,Unnecessary,,,,1.0.0,Yes,LostQuestMemo,LostQuestNote,5426,Fd7AxQwkCjc5RmfRW,1532
+lucky money,,,No,1,NFS,,,,Wrapping bells,,Lunar New Year (Nook Shopping),Yes,0,Unnecessary,,,,1.7.0,Yes,OtoshidamaSealCh,DummyOtoshidamaCh,14042,DX5BE8kcdy8x4g37Q,36DA
+lucky red envelope,,,No,10,500,125.0,,,Nook Shopping Seasonal,,Lunar New Year (Nook Shopping),Yes,201,Etc,,,,1.7.0,Yes,OtoshidamaOpenCh,OtoshidamaCh,13954,Yt48256KettgBctff,3682
+manila clam,,,No,1,NFS,100.0,,,Clam dig spot,,,,0,Etc,,,,1.0.0,Yes,ShellFishAsari,FtrShellFishAsari,2567,JFoiWRD9rYYRQchWY,0A07
+maple leaf,,,No,10,NFS,200.0,,,Catching with a net,,maple leaves,Yes,0,Etc,,,,1.0.0,Yes,AutumnLeaf,AutumnLeaf,7374,iNPeEEqdSxkjKFPDS,1CCE
+medicine,,,Yes,10,400,100.0,,,Crafting; Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,Medicine,ItemMedicine,2777,3pirDraBT9LTcGCDc,0AD9
+message bottle,,,No,1,NFS,,,,Beach,,,,0,Unnecessary,,,,1.0.0,Yes,BottleRecipe,MessageBottle,5793,euJRD9W3hqTR3YeGC,16A1
+mint wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperMint,WPaperMint,7688,J7HrFYe8eAajkNBPk,1E08
+money tree,,,No,1,NFS,240.0,,,Burying bells in a glowing spot,,,,0,Plants,,,,1.0.0,Yes,PltMoney,PltMoney4,4426,ePzXeAjEBZXBhxuAF,114A
+moving kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MovingKitPlayer,5358,MyYYwJYdNvcGSEoFZ,14EE
+museum moving kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MovingKitMuseum,5361,nrLWMtL3jGmWYDAQM,14F1
+navy wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperNavy,WPaperNavy,7691,Ms5AhyNbJL5DuZrh2,1E0B
+New Reactions Notebook,,,No,1,NFS,,3300.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,HowtoBookExpansion,HowtoBookReaction_v200,14828,STZTMjFRELXTvZaY5,39EC
+Nook Miles Ticket,,,No,10,NFS,10000.0,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,171,Etc,,,,1.0.0,Yes,PlaneTicket,MilePlaneTicket,5851,FAn9xRZvpBRAad3E6,16DB
+old tire,,,No,1,NFS,10.0,,,Fishing,Large shadow,,,0,Etc,,,,1.0.0,Yes,Tire,TrashTire,3470,3S8juGp87QfHvtpyq,0D8E
+orange,,,No,10,400,100.0,,,Nook's Cranny; Orange Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Orange,Orange,2214,T54w2hgHB3Edytw3f,08A6
+orange cosmos,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Cosmos4,FlwCosmosOrange,2871,Hvp5sHy7uPHnH2Qda,0B37
+orange hyacinths,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Hyacinth3,FlwHyacinthOrange,3741,H7pirF6ynSFrpgLMN,0E9D
+orange lilies,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Yuri3,FlwYuriOrange,2995,Y8kaixfp7SEvzCDCd,0BB3
+orange pansies,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Pansi4,FlwPansyRedYellow,2919,atQLxZD4CSqYsaNkM,0B67
+orange pumpkin,,,No,10,NFS,350.0,,,Picking pumpkins; All villagers,Obtained from crafting villagers during October if player already knows the recipe or as a reward for gifting candy on Halloween,Halloween (days before); Halloween,No,0,Plants,,,1.0,1.5.0,Yes,SquashOrange,SquashOrange,4525,MJsfLZS7DtC3mu5Pc,11AD
+orange roses,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Rose4,FlwRoseOrange,2947,MsnwoMvrqgeH2ZrG6,0B83
+orange tree,,,No,1,NFS,300.0,,,Planting an orange,,,,0,Plants,,,,1.0.0,Yes,PltOrange,PltOrange4,3365,RjcKphnD5xgCxeMFM,0D25
+orange tulips,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Turip6,FlwTulipOrange,2895,h9SC924x9vkjSAsBC,0B4F
+orange windflowers,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Orange,Green,,1.0.0,Yes,Anemone2,FlwAnemonesOrange,3713,dCQyoCdY9JFYxHXbR,0E81
+orange wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperOrange,WPaperOrange,7685,brMQqHjgqsMz5kdtb,1E05
+orange-cosmos plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltCosmos4,PltCosmosOrange3,3832,ZMn3hzNpMRg9vkW7E,0EF8
+orange-hyacinth plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth3,PltHyacinthOrange3,3916,Qm6vasEvBMXEaWDgF,0F4C
+orange-lily plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltYuri3,PltYuriOrange3,3894,b2dp3BnCjLEQTcyHt,0F36
+orange-pansy plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltPansi4,PltPansyRedYellow3,3856,NN4tLZwnXJA7nsQJF,0F10
+orange-rose plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltRose4,PltRoseOrange3,3870,WN72HFoZ3fyhwQ5NG,0F1E
+orange-tea-olive bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,tea olive,No,0,Plants,,,,1.2.0,Yes,PltBushOsmathusOrange,PltBushOsmathusOrange2,12482,ijnrJoK6XMityJZDM,30C2
+orange-tea-olive start,,,No,10,280,70.0,,,Leif,,tea olive,No,0,Plants,,,,1.2.0,Yes,SeedBushOsmathusOrange,SeedBushOsmathusOrange,12480,QRyD9Q4f7vzqQdeCs,30C0
+orange-tulip plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltTurip6,PltTulipOrange3,3844,iYi6dRqA3vA8fb4oZ,0F04
+orange-windflower bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag3,SeedAnemonesOrange,3714,HuPd5NbyLkkFvigEo,0E82
+orange-windflower plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltAnemone2,PltAnemonesOrange3,3900,E9PAkZEzQ3HaJiRqy,0F3C
+otoshidama,,,No,1,NFS,,,,Wrapping bells,,Shōgatsu,Yes,0,Unnecessary,,,,2.0.0,Yes,OtoshidamaSealJp,DummyOtoshidamaJp,14044,RzcXgZYNaqnrTzn2w,36DC
+otoshidama envelope,,,No,10,500,125.0,,,Nook Shopping Seasonal,,Shōgatsu,Yes,201,Etc,,,,2.0.0,Yes,OtoshidamaOpenJp,OtoshidamaJp,13956,yJaHYJQogtbCLqnjT,3684
+Paradise Planning case,,,No,1,NFS,625.0,2200.0,Poki,Wardell,,Happy Home Paradise,Yes,151,Etc,,,,2.0.0,Yes,SmartphoneCaseOtg,SmartphoneCaseOtg,14820,gzc3vqZZhLZj3iHt8,39E4
+peach,,,No,10,400,100.0,,,Nook's Cranny; Peach Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Peach,Peach,2286,qjF3dwhQy3e2LiWtr,08EE
+peach tree,,,No,1,NFS,300.0,,,Planting a peach,,,,0,Plants,,,,1.0.0,Yes,PltPeach,PltPeach4,3375,jr4TgJyTJyZ933o6T,0D2F
+pear,,,No,10,400,100.0,,,Nook's Cranny; Pear Tree,,,,0,Plants,,,1.0,1.0.0,Yes,Pear,Pear,2285,pnTL7PHd4rtyzkanu,08ED
+pear tree,,,No,1,NFS,300.0,,,Planting a pear,,,,0,Plants,,,,1.0.0,Yes,PltPear,PltPear4,3370,7kQWGcj7EmNqj8KiL,0D2A
+pearl,,,No,30,NFS,10000.0,,,Dive spot; Pascal,,,,251,Etc,,,,1.3.0,Yes,Pearl,Pearl,12968,EtiYMntRoS8RN53Rn,32A8
+pine cone,,,No,30,NFS,200.0,,,Cedar Tree,Shaking,acorns and pine cones,Yes,0,Etc,,,,1.0.0,Yes,DIYPinecone,DIYPinecone,5728,pKvkjhsyir2FimNts,1660
+pink cosmos,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Cosmos3,FlwCosmosPink,2867,898Ts8bbEr7iNZzGG,0B33
+pink hyacinths,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Hyacinth4,FlwHyacinthPink,3738,wNbmG4DKhkErfibGX,0E9A
+pink lilies,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Yuri4,FlwYuriPink,2991,kiCkkhX3PNkfauJXo,0BAF
+pink mums,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Mum3,FlwMumPink,3765,xNhBxScQvumKJeYDz,0EB5
+pink roses,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Rose3,FlwRosePink,2943,Y3XgoGJjbP4FARKP8,0B7F
+pink tulips,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Turip3,FlwTulipPink,2891,xsXifs2QAihKWQneZ,0B4B
+pink windflowers,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Pink,Green,,1.0.0,Yes,Anemone3,FlwAnemonesPink,3720,ap2QtwXRXd3rCw99D,0E88
+pink wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperPink,WPaperPink,7684,nRfsjMz6ctyb5gpGt,1E04
+pink-azalea bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,azalea,No,0,Plants,,,,1.2.0,Yes,PltAzaleaPink,PltAzaleaPink2,3788,jy3SJweiZ5ketX4zg,0ECC
+pink-azalea start,,,No,10,280,70.0,,,Leif,,azalea,No,0,Plants,,,,1.2.0,Yes,SeedAzaleaPink,SeedAzaleaPink,3786,R69MFoTNoTFaAFokq,0ECA
+pink-camellia bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,camellia,No,0,Plants,,,,1.2.0,Yes,PltBushCamelliaPink,PltBushCamelliaPink2,12492,tKaeYZdRmGtTShfmH,30CC
+pink-camellia start,,,No,10,280,70.0,,,Leif,,camellia,No,0,Plants,,,,1.2.0,Yes,SeedBushCamelliaPink,SeedBushCamelliaPink,12490,nWKkXpxtQqLCtmPEG,30CA
+pink-cosmos plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltCosmos3,PltCosmosPink3,3830,sPeds6o4kAXvts6mc,0EF6
+pink-hyacinth plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth4,PltHyacinthPink3,3914,3w8JnddzGnc2yb4LF,0F4A
+pink-hydrangea bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,hydrangea,No,0,Plants,,,,1.2.0,Yes,PltHydrangeaPink,PltHydrangeaPink2,3796,t3sEjgXcrmrJ9WbS7,0ED4
+pink-hydrangea start,,,No,10,280,70.0,,,Leif,,hydrangea,No,0,Plants,,,,1.2.0,Yes,SeedHydrangeaPink,SeedHydrangeaPink,3794,MeN5MT4W7J4dbcWcC,0ED2
+pink-lily plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltYuri4,PltYuriPink3,3892,iRrTAcjkNBukdsAQm,0F34
+pink-mum plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltMum3,PltMumPink3,3930,yP44c6mMQC7u5udxv,0F5A
+pink-plumeria bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,plumeria,No,0,Plants,,,,2.0.0,Yes,PltBushPlumeriaPink,PltBushPlumeriaPink2,13264,QqJ7SMtBQEmJcAYy8,33D0
+pink-plumeria start,,,No,10,280,70.0,,,Leif,,plumeria,No,0,Plants,,,,2.0.0,Yes,SeedBushPlumeriaPink,SeedBushPlumeriaPink,13262,HLWaYrp8ux4jyqYmZ,33CE
+pink-rose plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltRose3,PltRosePink3,3868,wpLag9jyPSoMr6wcW,0F1C
+pink-tulip plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltTurip3,PltTulipPink3,3842,usSvXn26PTCuavTHo,0F02
+pink-windflower plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltAnemone3,PltAnemonesPink3,3904,YJfanQias2fdR9t9X,0F40
+Pisces fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Pisces,Yes,0,Etc,,,,1.0.0,Yes,StarpiecePisces,StarpiecePisces,5987,nCwjX8yHBFefjAion,1763
+pitfall seed,,,Yes,10,NFS,140.0,,,Crafting,,,,0,Etc,,,,1.0.0,Yes,SeedPitfall,PitfallSeed,2578,HYdEMJJQXzoudrWDT,0A12
+plot 1 housing kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,HousingKitRcoQuestA,5827,2JkqabfsQ26vYe7Fp,16C3
+plot 2 housing kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,HousingKitRcoQuestB,5828,h63H2kQtzWceBt57Y,16C4
+plot 3 housing kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,HousingKitRcoQuestC,5829,5JGfxP3vczLy755Y4,16C5
+Pocket Camp phone case,,,No,1,2000,500.0,,,Nook Shopping Promotion,,,,178,Etc,,,,1.6.0,Yes,SmartphoneCaseComp,SmartphoneCaseComp,13439,cB4KmrbAxssgvXhNP,347F
+Pocket Organization Guide,,,No,1,NFS,,5000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookExpansion,HowtoBookPocketExpansion,9052,rMYGGvqwXxrzrA2FG,235C
+potato,,,No,10,NFS,350.0,,,Picking potatoes,,,,0,Plants,,,1.0,2.0.0,Yes,Potato,Potato,3039,JSA2QRMvsyyTg4hPL,0BDF
+present,,,No,1,NFS,,,,Mail,,,,0,Unnecessary,,,,1.0.0,Yes,Present,DummyPresentbox,4480,eKkBqvy3TwbZbNQWZ,1180
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagBlack,DummyWrappingBlack,7714,Fz8reyFJoWrSLQSvq,1E22
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagBlue,DummyWrappingBlue,7708,f38mKJ6yzmhtjyWXS,1E1C
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagBrown,DummyWrappingBrown,7712,hwkpJC9vq2AYKrhqe,1E20
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagLightGreen,DummyWrappingLightGreen,7702,78JwZftyosktxaKyQ,1E16
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagGold,DummyWrappingGold,7711,JzsQLAwTvEPAZ2f9x,1E1F
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagGary,DummyWrappingGary,7713,fw5ehh62f4u6rvQbw,1E21
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagGreen,DummyWrappingGreen,7703,9uhhf44dFKeQ4b5zP,1E17
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagLightBlue,DummyWrappingLightBlue,7705,gFWMoXzFEjAaBkoFi,1E19
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagMint,DummyWrappingMint,7704,uWkGsjeN7twxbeXLR,1E18
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagNavy,DummyWrappingNavy,7707,YeKbW5aZJbTqDGemJ,1E1B
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagOrange,DummyWrappingOrange,7701,nHGaD5m8mC7s7CXvL,1E15
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagPink,DummyWrappingPink,7700,pvtYwhqa379pE76XE,1E14
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagPurple,DummyWrappingPurple,7706,7hrL79hJbARyu7ipm,1E1A
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagRed,DummyWrappingRed,7710,id6zFR4kWdzBig22Z,1E1E
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagWhite,DummyWrappingWhite,7709,a5AhJAfzsgzgTfMty,1E1D
+present,,,No,1,NFS,,,,Wrapping a present,,,,0,Etc,,,,1.0.0,Yes,WBagYellow,DummyWrappingYellow,7699,BammpXwkmiSSZ7uxz,1E13
+Pretty Good Tools Recipes,,,No,1,NFS,,3000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,BookRecipe,DIYbookNormalTools,9221,qX2D6tr7ba6exWbPj,2405
+Pro Camera App,,,No,1,NFS,,1500.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,CameraAppPro,HowtoBook1stPersonCamera,14695,ewzfTCou2LjigL3u4,3967
+Pro Construction License,,,No,1,NFS,,3000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,HowtoBookExpansion,HowtoBookAddBridgeSlope,14914,xccbsyKLfNacT2atx,3A42
+Pro Decorating License,,,No,1,NFS,,2500.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,HowtoBookExpansion,HowtoBookCeilingFtrAccentWall,14693,ncbqaFKoHGJtCaL3a,3965
+pumpkin start,,,No,10,280,70.0,,,Nook's Cranny; Leif,"Since 1.6.0, Leif sells pumpkin starts year-round.",Halloween (days before); Halloween,No,0,Plants,,,,1.5.0,Yes,SeedlingVegetable,SeedSquash,13227,3zojbttjJXhz4eFCE,33AB
+purple feather,,,No,3,NFS,200.0,,,Catching with a net,,Festivale,Yes,0,Etc,Purple,Purple,,1.7.0,Yes,FeatherPpl,FeatherPurple,3545,7HKiTAhpqRKwDHa9y,0DD9
+purple hyacinths,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Hyacinth5,FlwHyacinthPurple,3751,9F9TFje8ycfZHtGwb,0EA7
+purple mums,,,No,10,NFS,80.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Mum5,FlwMumPurple,3762,Cx4oGE5eG4dByu52t,0EB2
+purple pansies,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Pansi3,FlwPansyPurple,2923,j7gZeSSTHAcNjGTz7,0B6B
+purple roses,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Rose5,FlwRosePurple,2951,7YDMvyAt4FvfmZzpX,0B87
+purple tulips,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Turip4,FlwTulipPurple,2899,ifT7cGFbysTHCWFES,0B53
+purple windflowers,,,No,10,NFS,240.0,,,Picking flowers,,,,87,Plants,Purple,Green,,1.0.0,Yes,Anemone4,FlwAnemonesPurple,3727,k8fi3AsuMB335GrxH,0E8F
+purple wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperPurple,WPaperPurple,7690,XYFjS9w89jxHJTJks,1E0A
+purple-hyacinth plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth5,PltHyacinthPurple3,3922,25W3Z8QHvkuxynosQ,0F52
+purple-mum plant,,,No,1,NFS,80.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltMum5,PltMumPurple3,3928,h5JsnSkRkX5nHgvkJ,0F58
+purple-pansy plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltPansi3,PltPansyPurple3,3858,TRTMbvSzctgwWM6is,0F12
+purple-rose plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltRose5,PltRosePurple3,3872,o8Z9gXXxjwrerp3Xm,0F20
+purple-tulip plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltTurip4,PltTulipPurple3,3846,P5kEKdgi4EkF3Fxge,0F06
+purple-windflower plant,,,No,1,NFS,240.0,,,Breeding,,,,0,Plants,,,,1.0.0,Yes,PltAnemone4,PltAnemonesPurple3,3908,K2PvXjrjRrJcxWKDZ,0F44
+rainbow feather,,,Yes,1,NFS,1600.0,,,Crafting; Catching with a net,,Festivale,Yes,0,Etc,Colorful,Colorful,,1.7.0,Yes,FeatherRainbow,FeatherRainbow,3548,dPZSTbDt7jgKpw5xD,0DDC
+rare mushroom,,,No,10,NFS,16000.0,,,Dig Spot,Near cedar and hardwood trees,mushrooms,Yes,0,Plants,,,1.0,1.0.0,Yes,Mush4,MushRare,3280,TBrdJZWSzGth68Hs9,0CD0
+red cosmos,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Cosmos1,FlwCosmosRed,2304,df2GEMdr8rzF848iG,0900
+red feather,,,No,3,NFS,200.0,,,Catching with a net,,Festivale,Yes,0,Etc,Red,Red,,1.7.0,Yes,FeatherRed,FeatherRed,3541,gLSytGm9mxZM55pbo,0DD5
+red hyacinths,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Hyacinth2,FlwHyacinthRed,3744,ch44Hxnuhc4xFnaGq,0EA0
+red lilies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Yuri2,FlwYuriRed,2983,Ccbkzs9BxFwttCGux,0BA7
+red mums,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Mum2,FlwMumRed,3768,YbZtSHeqdMEZfvMSj,0EB8
+red ornament,,,No,30,NFS,50.0,,,Cedar Tree,Shaking decorated trees,ornaments,Yes,0,Etc,,,,1.0.0,Yes,ChristmasOrnamentA,DIYOrnamentRed,5730,n7d3HHquNv3trZZ6a,1662
+red pansies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Pansi2,FlwPansyRed,2911,nifAbNAEXppAEJ2Rc,0B5F
+red roses,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Rose0,FlwRoseRed,2935,6whx4t9k8aztJN6a4,0B77
+red tulips,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Turip0,FlwTulipRed,2883,wbJwAKy9SJsuWeHLn,0B43
+red windflowers,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Red,Green,,1.0.0,Yes,Anemone1,FlwAnemonesRed,3723,JRcjMczbQ6geDSWDb,0E8B
+red wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperRed,WPaperRed,7694,AN7s2Q67gmpxy89Tv,1E0E
+red-camellia bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,camellia,No,0,Plants,,,,1.2.0,Yes,PltBushCamelliaRed,PltBushCamelliaRed2,12489,wBA9LGru4uetCqQsx,30C9
+red-camellia start,,,No,10,280,70.0,,,Leif,,camellia,No,0,Plants,,,,1.2.0,Yes,SeedBushCamelliaRed,SeedBushCamelliaRed,12487,wZBBMZvxkDz22tpLo,30C7
+red-cosmos bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedCosmosRed,2626,uSN5GeiPFdq4sXM9p,0A42
+red-cosmos plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltCosmos1,PltCosmosRed3,3824,6DQtRdnKv3wncjoLn,0EF0
+red-hibiscus bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,hibiscus,No,0,Plants,,,,1.2.0,Yes,PltHibiscusRed,PltHibiscusRed2,3022,9L4XDnErnxfq4WzYC,0BCE
+red-hibiscus start,,,No,10,280,70.0,,,Leif,,hibiscus,No,0,Plants,,,,1.2.0,Yes,SeedHibiscusRed,SeedHibiscusRed,3019,fru8KaSmhXoKiPmxJ,0BCB
+red-hyacinth bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedHyacinthRed,3745,4hfNdxNQWkQ9qf6QN,0EA1
+red-hyacinth plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth2,PltHyacinthRed3,3918,2NJn5Znkpfj3PZ3h4,0F4E
+red-lily bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedYuriRed,2984,6omvRhe5bmd4Abd3z,0BA8
+red-lily plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltYuri2,PltYuriRed3,3888,FpdTm8BJu2va7bxe3,0F30
+red-mum bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedMumRed,3769,BZzzrHDtZyDqP9Jot,0EB9
+red-mum plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltMum2,PltMumRed3,3932,pdhzKEEKEWtCGLMj7,0F5C
+red-pansy bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedPansyRed,2912,H2phax8XGcyfsxHyM,0B60
+red-pansy plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltPansi2,PltPansyRed3,3852,BQJWgPE6ouCBiNoZn,0F0C
+red-rose bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedRoseRed,2936,e7SNQmbsXKT3pkkzS,0B78
+red-rose plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltRose0,PltRoseRed3,3864,A8c3nW23t98zEzuPY,0F18
+red-tulip bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedTulipRed,2884,6WnmQcHeeC9MAELud,0B44
+red-tulip plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltTurip0,PltTulipRed3,3838,vq6FQiZSEprG7z24A,0EFE
+red-windflower bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag0,SeedAnemonesRed,3724,gstfXhxq6i9XsQeMu,0E8C
+red-windflower plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltAnemone1,PltAnemonesRed3,3906,R8JKJkD6gjEK548a2,0F42
+ripe carrot plant,,,No,1,NFS,350.0,,,Digging up a carrot plant,,,,0,Plants,,,,2.0.0,Yes,PltCarrot,PltCarrot3,12905,quPQ8PvMvMve7BmNX,3269
+ripe green-pumpkin plant,,,No,1,NFS,350.0,,,Digging up a pumpkin plant,,Halloween (days before); Halloween,No,0,Plants,,,,1.5.0,Yes,PltSquashGreen,PltSquashGreen3,4540,ayPbtaq8CwpKNapLf,11BC
+ripe orange-pumpkin plant,,,No,1,NFS,350.0,,,Digging up a pumpkin plant,,Halloween (days before); Halloween,No,0,Plants,,,,1.5.0,Yes,PltSquashOrange,PltSquashOrange3,4532,RusnnqE3aY6t7ThJR,11B4
+ripe potato plant,,,No,1,NFS,350.0,,,Digging up a potato plant,,,,0,Plants,,,,2.0.0,Yes,PltPotato,PltPotato3,12902,eGHF3wrRFYbiE2Ktc,3266
+ripe sugarcane plant,,,No,1,NFS,350.0,,,Digging up a sugarcane plant,,,,0,Plants,,,,2.0.0,Yes,PltSugarCane,PltSugarCane3,12900,Mb3ZWQvCwpZnZhM9D,3264
+ripe tomato plant,,,No,1,NFS,350.0,,,Digging up a tomato plant,,,,0,Plants,,,,2.0.0,Yes,PltTomato,PltTomato3,12898,Cr5D2AzSMXXzACg4b,3262
+ripe wheat plant,,,No,1,NFS,350.0,,,Digging up a wheat plant,,,,0,Plants,,,,2.0.0,Yes,PltWheat,PltWheat3,12899,eAbi74E3NBaZgv2qM,3263
+ripe white-pumpkin plant,,,No,1,NFS,350.0,,,Digging up a pumpkin plant,,Halloween (days before); Halloween,No,0,Plants,,,,1.5.0,Yes,PltSquashWhite,PltSquashWhite3,4544,YPMgJmtwRiS4pYtQa,11C0
+ripe yellow-pumpkin plant,,,No,1,NFS,350.0,,,Digging up a pumpkin plant,,Halloween (days before); Halloween,No,0,Plants,,,,1.5.0,Yes,PltSquashYellow,PltSquashYellow3,4536,R2ZZWCxaLK9Jcw7SK,11B8
+round mushroom,,,No,10,NFS,200.0,,,On ground,,mushrooms,Yes,0,Plants,,,1.0,1.0.0,Yes,Mush1,MushRound,3277,x8LdsoLTpK3eNLsLP,0CCD
+rusted part,,,No,10,NFS,10.0,,,Recycle box,,,,0,Etc,,,,1.0.0,Yes,JohnnyQuestDust1,JohnnyQuestDust1,2389,eNswgjstdGpp6XoKz,0955
+Sagittarius fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Sagittarius,Yes,0,Etc,,,,1.0.0,Yes,StarpieceSagittarius,StarpieceSagittarius,5996,9R62eP8SNmyp2BKCw,176C
+Saharah Ticket,,,No,5,NFS,100.0,,,Saharah,,,,0,Etc,,,,1.0.0,Yes,RollanTicket,RollanTicket,9261,hcEpSZjo7pxbNQ4B9,242D
+sand dollar,,,No,10,NFS,120.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell8,ShellDriftSanddollar,1379,7QMCD99jYqLWHvEnR,0563
+sand path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerSand,8777,Pw8J67aWPkpfyd2Wa,2249
+sapling,,,No,10,640,160.0,,,Nook's Cranny,,,,0,Plants,,,,1.0.0,Yes,Seedling,SeedOak,2794,cD3cQwuLBqLJe2WeM,0AEA
+Scorpius fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Scorpio,Yes,0,Etc,,,,1.0.0,Yes,StarpieceScorpio,StarpieceScorpio,5995,qGiMqtK2j3TsC7bNu,176B
+sea snail,,,No,10,NFS,180.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell6,ShellDriftEbisu,1374,5wagvDKnQqp7a3xWD,055E
+sebaetdon,,,No,1,NFS,,,,Wrapping bells,,Seollal,Yes,0,Unnecessary,,,,1.7.0,Yes,OtoshidamaSealKr,DummyOtoshidamaKr,14043,ePrzqT5HRMpbfdn7y,36DB
+seed potato,,,No,10,280,70.0,,,Leif,,,,0,Plants,,,,2.0.0,Yes,SeedlingVegetable,SeedPotato,3040,uxiLYB9gyNwmZjWaZ,0BE0
+shop construction kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,ShopTent,2756,GgwtWhgJSRb3E4gFt,0AC4
+shop moving kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MovingKitShop,5360,9LmRipQ63jBZ3CGWq,14F0
+skinny mushroom,,,No,10,NFS,300.0,,,On ground,,mushrooms,Yes,0,Plants,,,1.0,1.0.0,Yes,Mush2,MushSlender,3278,y2htnyw8eDSR8JHJg,0CCE
+sky egg,,,No,30,NFS,200.0,,,Egg balloon,,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggSky,EggSky,12513,SLJ273SKGouTZWTzY,30E1
+snowflake,,,No,10,NFS,200.0,,,Catching with a net,,snowflakes,Yes,0,Etc,,,,1.0.0,Yes,SnowCrystal,SnowCrystal,3539,Ru7DDSmgAT9dxL8cL,0DD3
+softwood,,,No,30,NFS,60.0,,,Chopping a tree,,,,0,Etc,,,,1.0.0,Yes,DIYWoodSoft,DIYWoodSoft,2767,uP3kCjbqrmTKeo2Ya,0ACF
+souvenir chocolates,,,No,10,NFS,222.0,800.0,Poki,HHP Office,,,,0,Etc,,,1.0,2.0.0,Yes,SouvenirChocolate,SouvenirChocolate,13104,Eyat3se8Qndpk6Kfv,3330
+spoiled turnips,,,No,1,NFS,100.0,,,Expired turnips,,,,0,Etc,,,,1.0.0,Yes,BadKabu,Kabu_Spoil,2642,xPacPLbSrKbYSjBAd,0A52
+star fragment,,,No,10,NFS,250.0,,,Wishing on shooting stars,,,,0,Etc,,,,1.0.0,Yes,StarPiece,Starpiece,5983,Fy2vYDWHtktFPiRjz,175F
+stone,,,No,30,NFS,75.0,,,Hitting a rock; Fishing,X-Small shadow when fishing,,,0,Etc,,,,1.0.0,Yes,OreStone,DIYStone,2502,rQ38YPKd7g8fCBqRC,09C6
+stone egg,,,No,30,NFS,200.0,,,Hitting a rock,,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggRock,EggRock,12510,fHsLgaoNxhWY7BGqm,30DE
+stone path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerStone,8773,oTy93idiub9zpcb3F,2245
+sugar,,,Yes,50,NFS,210.0,,,Cooking,,,,103,Etc,,,,2.0.0,Yes,FlourSugar,FlourSugar,13997,PM7n3XRpKhzPXkDhp,36AD
+sugarcane,,,No,10,NFS,350.0,,,Picking sugarcane,,,,0,Plants,,,1.0,2.0.0,Yes,SugarCane,SugarCane,3034,KoKRtwn77pywTyqng,0BDA
+sugarcane start,,,No,10,280,70.0,,,Leif,,,,0,Plants,,,,2.0.0,Yes,SeedlingVegetable,SeedSugarCane,3035,PXWD7CswEAMtkDcKe,0BDB
+summer shell,,,No,10,NFS,600.0,,,Beach,,summer shells,Yes,0,Etc,,,,1.0.0,Yes,ShellSummer,ShellDriftSummer,5982,nrfNFuHkwuyx2h25n,175E
+tailors construction kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,HousingKitTailor,4411,nzXpuGtjkdzS8i7aZ,113B
+tailors moving kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,TentWhite,MovingKitTailor,5359,GaNHE6Zd7QJtFKMwW,14EF
+tailors ticket,,,No,10,NFS,250.0,,,Label,,,,0,Etc,,,,1.0.0,Yes,TailorTicket,TailorTicket,5932,Rq3dAQH4oTDptcDMF,172C
+Taurus fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Taurus,Yes,0,Etc,,,,1.0.0,Yes,StarpieceTaurus,StarpieceTaurus,5989,3k9txwAoHfTjWgxtx,1765
+tent,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.0.0,Yes,Tent,TutorialTent,2750,Lg4xPPH3PXiNpW268,0ABE
+terra-cotta tile permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerTile,8778,RpeWT95qyhD22ePzw,224A
+Test Your DIY Skills,,,No,1,2680,,,,Nook's Cranny,,,,0,Unnecessary,,,,1.0.0,Yes,Book,DIYbook2,5604,Z98Fu4EyDgeSnqxzE,15E4
+tomato,,,No,10,NFS,350.0,,,Picking tomatoes,,,,0,Plants,,,1.0,2.0.0,Yes,Tomato,Tomato,2570,4Ht6JuKRLQ9MajgsF,0A0A
+tomato start,,,No,10,280,70.0,,,Leif,,,,0,Plants,,,,2.0.0,Yes,SeedlingVegetable,SeedTomato,2649,TqZXQWtrX2A4yXc7w,0A59
+Tool Ring: It's Essential!,,,No,1,NFS,,800.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookExpansion,HowtoBookRingMenuUI,9616,AXc86J2LA2TEEgkTy,2590
+Top 4 Fab Hairstyles,,,No,1,NFS,,1200.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,2.0.0,Yes,HowtoBookHair,HowtoBookHair_v200,14829,EkfcmkMkNAMsnS7x3,39ED
+Top 6 Stylish Hairstyles,,,No,1,NFS,,1800.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.6.0,Yes,HowtoBookHair,HowtoBookHairRock,13766,7bC3au49Axxr4p5L5,35C6
+Top 8 Cool Hairstyles,,,No,1,NFS,,2400.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookHair,HowtoBookHairCool,9050,qRimrPCob8DS8zuug,235A
+Top 8 Pop Hairstyles,,,No,1,NFS,,2400.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookHair,HowtoBookHairPop,9049,2KfDyfk47DR6Gw8m9,2359
+Top 8 Stylish Hair Colors,,,No,1,NFS,,3000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookHair,HowtoBookHairColor,9051,JPwL4N6fr494vbJHb,235B
+transfer kit,,,No,1,NFS,,,,Tom Nook,,,,0,Unnecessary,,,,1.6.0,Yes,TentWhite,PlayerMovingHousingKit,13346,WGRQ4YBzp3QpDNFMm,3422
+treasure,,,No,1,NFS,,,,Dig Spot,Placed randomly on island for a villager's treasure hunt quest,,,0,Unnecessary,,,,1.0.0,Yes,Present2,TreasureCapsule,2545,KJjoYJDr5g786djiz,09F1
+tree branch,,,No,30,NFS,5.0,,,Shaking a hardwood or cedar tree,,,,0,Etc,,,,1.0.0,Yes,DIYBranch,DIYBranch,2500,fDwbwWdq93bLwRRDr,09C4
+Turkey Day Recipes,,,No,1,9800,,,,Franklin; Nook's Cranny,,Turkey Day; Turkey Day (days after),Yes,103,Unnecessary,,,,2.0.0,Yes,Book,CookingbookHarvest,14816,5xYYfFYyrEG9rS9Hx,39E0
+turnips,,,No,1000,NFS,,,,Daisy Mae,Only available on Sundays; buy value ranges from 90-110 per turnip but can only be bought in stacks of 10 or more; sell value ranges from 9-660 depending on the current market price,,,0,Etc,,,10.0,1.0.0,Yes,Kabu,PhotoStudioKabu,7734,4hQrmzxXh6HRb8TDg,1E36
+Ultimate Pocket Stuffing,,,No,1,NFS,,8000.0,Nook Miles,Nook Miles Redemption,,,,0,Unnecessary,,,,1.0.0,Yes,HowtoBookExpansion,HowtoBookPocketExpansion2,11140,jLHd4JDRQDRxBhE9o,2B84
+used fountain firework,,,No,1,NFS,10.0,,,Use a fountain firework,,Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5),No,0,Etc,,,,1.4.0,Yes,Cinder,Cinder,13107,ZndPE58PZywGJxkSq,3333
+venus comb,,,No,10,NFS,300.0,,,Beach,,,,0,Etc,,,,1.0.0,Yes,Shell4,ShellDriftHone,1375,rMwbSnAnQ6SR6ov26,055F
+vine,,,No,30,NFS,50.0,,,Kapp'n islands,,,,0,FieldVine,,,,2.0.0,Yes,PltVine,PltVine,12551,aPdbpZA8QLSFAAywr,3107
+Virgo fragment,,,No,10,NFS,500.0,,,Wishing on shooting stars,,Virgo,Yes,0,Etc,,,,1.0.0,Yes,StarpieceVirgo,StarpieceVirgo,5993,6pD87cCAtspPu5xgi,1769
+Viva Festivale Reaction Set,,,No,1,19800,,,,Nook's Cranny,,Festivale (days before); Festivale,Yes,0,Unnecessary,,,,1.7.0,Yes,HowtoBookExpansion,HowtoBookReactionCarnival,14030,QHERh7S2v4M3vkM5N,36CE
+wasp nest,,,No,10,NFS,300.0,,,Shaking a hardwood or cedar tree,,,,0,Etc,,,,1.0.0,Yes,Honeycomb,Honeycomb,3263,nzXtgoA5GkWLJnNuv,0CBF
+water egg,,,No,30,NFS,200.0,,,Fishing,,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggFish,EggFish,12514,q8ER2p757DRZoqvhB,30E2
+waterscaping permit,,,No,1,NFS,,6000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,ToolRiverMaker,FtrRiverMaker,8780,y27SvjCmimgePaN7y,224C
+What was this again?,,,No,1,NFS,0.0,,,Don't return lost item,,,,0,Unnecessary,,,,1.0.0,Yes,Porch,LostQuestBagDust,4642,tFfFLpFHcdbw3AEW3,1222
+What was this again?,,,No,1,NFS,0.0,,,Don't return lost item,,,,0,Unnecessary,,,,1.0.0,Yes,Book,LostQuestBookDust,4643,uh9ZQCxKj52Entfkv,1223
+What was this again?,,,No,1,NFS,0.0,,,Don't return lost item,,,,0,Unnecessary,,,,1.0.0,Yes,LostQuestMemo,LostQuestNoteDust,5427,ruc9ZFn2WnduaPXPz,1533
+What was this again?,,,No,1,NFS,0.0,,,Don't return treasure quest item,,,,0,Unnecessary,,,,1.0.0,Yes,Present2,TreasureCapsuleDust,2546,abcQC3Kh7T8KSyBRA,09F2
+wheat,,,No,10,NFS,350.0,,,Picking wheat,,,,0,Plants,,,1.0,2.0.0,Yes,Wheat,Wheat,3029,YK3WpWZr9sthEALnN,0BD5
+wheat start,,,No,10,280,70.0,,,Leif,,,,0,Plants,,,,2.0.0,Yes,SeedlingVegetable,SeedWheat,3030,2Hn5xxndrhvLB2NFb,0BD6
+white cosmos,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Cosmos0,FlwCosmosWhite,2305,3e4iLg8KTpbmx6XW4,0901
+white hyacinths,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Hyacinth0,FlwHyacinthWhite,3730,JtxQ44iAMCEDowPzj,0E92
+white lilies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Yuri0,FlwYuriWhite,2979,HxHDxpDqRQEjiEs5L,0BA3
+white mums,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Mum0,FlwMumWhite,3754,nCnEJpwfWp5d3DBaF,0EAA
+white pansies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Pansi0,FlwPansyWhite,2907,zxfj87rooXrjMcppa,0B5B
+white pumpkin,,,No,10,NFS,350.0,,,Picking pumpkins,,Halloween (days before); Halloween,No,0,Plants,,,1.0,1.5.0,Yes,SquashWhite,SquashWhite,4528,Q27X2Qd2GL7YodxJY,11B0
+white roses,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Rose1,FlwRoseWhite,2931,2ASg5YXYQr5sqSvwG,0B73
+white tulips,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Turip1,FlwTulipWhite,2879,pzYHqKwsGDPBTsYmP,0B3F
+white windflowers,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,White,Green,,1.0.0,Yes,Anemone0,FlwAnemonesWhite,3709,QayiSgWWCqxzfAHwj,0E7D
+white wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperWhite,WPaperWhite,7693,xFSvWhgZbhuCvSSpA,1E0D
+white-azalea bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,azalea,No,0,Plants,,,,1.2.0,Yes,PltAzaleaWhite,PltAzaleaWhite2,2861,xmkj9sBpv8pQNGnGT,0B2D
+white-azalea start,,,No,10,280,70.0,,,Leif,,azalea,No,0,Plants,,,,1.2.0,Yes,SeedAzaleaWhite,SeedAzaleaWhite,2820,2xmbtR7bGZ9SkctzF,0B04
+white-cosmos bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedCosmosWhite,2629,qkPkqfogiwMf9fKCS,0A45
+white-cosmos plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltCosmos0,PltCosmosWhite3,3826,3iZJP9ouR47H43qMJ,0EF2
+white-hyacinth bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedHyacinthWhite,3731,iojgh78kpnPtzmjz5,0E93
+white-hyacinth plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth0,PltHyacinthWhite3,3910,uznvYGDDCpPJkYaEJ,0F46
+white-lily bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedYuriWhite,2980,wD5MnM6bM2t88hMs5,0BA4
+white-lily plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltYuri0,PltYuriWhite3,3886,jwRXxgLr3hFQsAZB6,0F2E
+white-mum bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedMumWhite,3755,PZ8MqZFTibFpr8Lqi,0EAB
+white-mum plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltMum0,PltMumWhite3,3924,hYqfsENa2bSHGznkC,0F54
+white-pansy bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedPansyWhite,2908,RsndrSoamwXzNjD9y,0B5C
+white-pansy plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltPansi0,PltPansyWhite3,3850,XmpB3NuR9RS9PXmCM,0F0A
+white-plumeria bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,plumeria,No,0,Plants,,,,2.0.0,Yes,PltBushPlumeriaWhite,PltBushPlumeriaWhite2,13350,i4ff2SsFg5y97fnAT,3426
+white-plumeria start,,,No,10,280,70.0,,,Leif,,plumeria,No,0,Plants,,,,2.0.0,Yes,SeedBushPlumeriaWhite,SeedBushPlumeriaWhite,13348,4ZCsZkJsK88e7ocN6,3424
+white-rose bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedRoseWhite,2932,FxA5MDvGKZc44uenJ,0B74
+white-rose plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltRose1,PltRoseWhite3,3862,vJFgRAkAYT32pscBc,0F16
+white-tulip bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedTulipWhite,2880,9JqXDYEJa9M3fGjkX,0B40
+white-tulip plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltTurip1,PltTulipWhite3,3836,EPcGhsMb6jQKpbBnC,0EFC
+white-windflower bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag1,SeedAnemonesWhite,3710,2XmGTkrRQqQbjfEoi,0E7E
+white-windflower plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltAnemone0,PltAnemonesWhite3,3898,5RMyLD5TYyRTzfLdq,0F3A
+whole-wheat flour,,,Yes,50,NFS,210.0,,,Cooking,,,,103,Etc,,,,2.0.0,Yes,FlourWheatwhole,FlourWheatwhole,13996,HpSZ2zub2kXW92QDX,36AC
+Wildest Dreams DIY,,,No,1,6980,,,,Nook's Cranny,,,,0,Unnecessary,,,,1.0.0,Yes,Book,DIYbook3,5605,7DL3HBGPEfgi6XZfX,15E5
+Wisp spirit piece,,,No,5,NFS,,,,Catching with a net,Only available while on a quest for Wisp,,,0,Unnecessary,,,,1.0.0,Yes,YutaroWisp,YutaroWisp,4702,yhGWoYrexRQRmWkvP,125E
+wood,,,No,30,NFS,60.0,,,Chopping a tree,,,,0,Etc,,,,1.0.0,Yes,DIYWoodNormal,DIYWoodNormal,2768,NYkn4SWpdNtkSjGMz,0AD0
+wood egg,,,No,30,NFS,200.0,,,Chopping a tree,,Bunny Day (days before); Bunny Day,Yes,0,Etc,,,1.0,1.1.0,Yes,EggForest,EggForest,12512,8adCtThYkk3SrfhhS,30E0
+wooden path permit,,,No,1,NFS,,2000.0,Nook Miles,Nook Miles Redemption,Found under the Special tab of the Nook Miles Redemption service.,,,0,Unnecessary,,,,1.0.0,Yes,Helmet,FtrGroundMakerWood,8779,2ASyNJsmZJNm774y5,224B
+yellow cosmos,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Cosmos2,FlwCosmosYellow,2863,zjAYhjmqMzq3kDBdb,0B2F
+yellow hyacinths,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Hyacinth1,FlwHyacinthYellow,3734,4KF7eJpRzonQ585ut,0E96
+yellow lilies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Yuri1,FlwYuriYellow,2987,CYNwo9htHodqc52MC,0BAB
+yellow mums,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Mum1,FlwMumYellow,3758,5RAPmcCnKxJuTxsD5,0EAE
+yellow pansies,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Pansi1,FlwPansyYellow,2915,s5oZ3HMatfcyLFmb7,0B63
+yellow pumpkin,,,No,10,NFS,350.0,,,Picking pumpkins,,Halloween (days before); Halloween,No,0,Plants,,,1.0,1.5.0,Yes,SquashYellow,SquashYellow,4526,EDFNBHxSN2G2bT6w7,11AE
+yellow roses,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Rose2,FlwRoseYellow,2939,sfweQbaT8mzKykjhk,0B7B
+yellow tulips,,,No,10,NFS,40.0,,,Picking flowers,,,,87,Plants,Yellow,Green,,1.0.0,Yes,Turip2,FlwTulipYellow,2887,PdZJXzmx5y6JSLrRD,0B47
+yellow wrapping paper,,,No,10,160,40.0,,,Nook's Cranny,,,,0,Etc,,,,1.0.0,Yes,WPaperYellow,WPaperYellow,7683,DP6esJYrS7WodmWe2,1E03
+yellow-cosmos bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedCosmosYellow,2864,uP5p9469CWwJMRTpW,0B30
+yellow-cosmos plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltCosmos2,PltCosmosYellow3,3828,Bh4zXHCea4eaSgmz9,0EF4
+yellow-hibiscus bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,hibiscus,No,0,Plants,,,,1.2.0,Yes,PltHibiscusYellow,PltHibiscusYellow2,3792,Kb6qYCTJwjNX46xok,0ED0
+yellow-hibiscus start,,,No,10,280,70.0,,,Leif,,hibiscus,No,0,Plants,,,,1.2.0,Yes,SeedHibiscusYellow,SeedHibiscusYellow,3790,ZuDtvHRzubPByTeRG,0ECE
+yellow-hyacinth bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedHyacinthYellow,3735,5yZ7783u3awJuzvtj,0E97
+yellow-hyacinth plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltHyacinth1,PltHyacinthYellow3,3912,TZCvMPvktNmFAFKvP,0F48
+yellow-lily bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedYuriYellow,2988,gQ8rvpd52GD6oPZEB,0BAC
+yellow-lily plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltYuri1,PltYuriYellow3,3890,JmyYGEqKsuXG7YJmx,0F32
+yellow-mum bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedMumYellow,3759,PcvPGssP7xWcncSu8,0EAF
+yellow-mum plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltMum1,PltMumYellow3,3926,R7rBdJkoAh4Ss5fc7,0F56
+yellow-pansy bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedPansyYellow,2916,65A93Q3TDrr2TXe7r,0B64
+yellow-pansy plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltPansi1,PltPansyYellow3,3854,4DaoN5DPRbz3LuGPH,0F0E
+yellow-rose bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedRoseYellow,2940,BE6hakXFRTg2qdcPT,0B7C
+yellow-rose plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltRose2,PltRoseYellow3,3866,zukyGsru7LprL3Nn3,0F1A
+yellow-tea-olive bush,,,No,1,NFS,140.0,,,Digging up a fully grown bush,,tea olive,No,0,Plants,,,,1.2.0,Yes,PltBushOsmathusYellow,PltBushOsmathusYellow2,12478,79ausqrAiPDZqBB7Q,30BE
+yellow-tea-olive start,,,No,10,280,70.0,,,Leif,,tea olive,No,0,Plants,,,,1.2.0,Yes,SeedBushOsmathusYellow,SeedBushOsmathusYellow,12476,u9zmBcFHEqkM47dmk,30BC
+yellow-tulip bag,,,No,10,240,60.0,,,Nook's Cranny; Leif,,,,0,Plants,,,,1.0.0,Yes,SeedPaperbag2,SeedTulipYellow,2888,dK3ZtSLJjdTpT5fxq,0B48
+yellow-tulip plant,,,No,1,NFS,40.0,,,Seed bag,,,,0,Plants,,,,1.0.0,Yes,PltTurip2,PltTulipYellow3,3840,YuRZQh2wgkDnLLK55,0F00
+young spring bamboo,,,No,30,NFS,200.0,,,Chopping a bamboo tree,,young spring bamboo,Yes,0,Etc,,,,1.0.0,Yes,DIYBambooSpring,DIYBambooSpring,5729,rMwLLdMSqxg3w5gLx,1661

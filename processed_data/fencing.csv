@@ -1,0 +1,100 @@
+Name,Image,Variation,Body Title,DIY,Customize,Kit Cost,Kit Type,Cyrus Customize Price,Stack Size,Buy,Sell,Source,Source Notes,Season/Event,Season/Event Exclusive,Catalog,Version Added,Unlocked?,Filename,Variant ID,Internal ID,Unique Entry ID,Internal ID as hex,Variant Pattern Encoded
+bamboo lattice fence,,,,Yes,No,,,,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceBamboo,,3403,XaLnmQsQ47HfHQ9g5,0D4B,
+bamboo-slats fence,,,,Yes,No,,,,50,NFS,48,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceSandProtection,,14757,ziM6qEMjHMDPruzz6,39A5,
+barbed-wire fence,,,,Yes,No,,,,50,NFS,198,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceBarbedWire,,5213,dNgibaR9jFqaDwuDZ,145D,
+block fence,,,,Yes,No,,,,50,NFS,270,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceConcreteBlock,,4355,mKD2vgrBbXSNNPGJ4,1103,
+brick fence,,,,Yes,No,,,,50,NFS,120,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceWallRenga,,3080,WAzanA7e5MREzJdMh,0C08,
+Bunny Day fence,,,,Yes,No,,,,50,NFS,240,Crafting,,Bunny Day (days before); Bunny Day,Yes,Not for sale,1.1.0,Yes,ItemFenceEgg,,12630,CLQGhAfSNykpxrh3a,3156,
+corral fence,,,,Yes,No,,,,50,NFS,72,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceHorizontalWood,,4349,rqwqYy7Aphvh5zBSA,10FD,
+corrugated iron fence,,Gray,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_0_0,0_0,14758,sbRoLarfMrE5YkCL9,39A6,"(0, 0)"
+corrugated iron fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_1_0,1_0,14758,tH2nZ6dspXXTRZ65A,39A6,"(1, 0)"
+corrugated iron fence,,Green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_2_0,2_0,14758,bxWiSjQEdzwvHJGXH,39A6,"(2, 0)"
+corrugated iron fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_3_0,3_0,14758,ZNwYpAk3yKtvcYb5t,39A6,"(3, 0)"
+corrugated iron fence,,Red,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_4_0,4_0,14758,b4wCAGpeiKNQKn2tN,39A6,"(4, 0)"
+corrugated iron fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_5_0,5_0,14758,taWDpCYbwtnxqr68T,39A6,"(5, 0)"
+corrugated iron fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_6_0,6_0,14758,Q9aQS7h5HtJ5jEZQq,39A6,"(6, 0)"
+corrugated iron fence,,Brown,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,261,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCorrugatedIron_Remake_7_0,7_0,14758,TsjJXwxTniq3FWZnR,39A6,"(7, 0)"
+country fence,,,,Yes,No,,,,50,NFS,72,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLog,,4350,twwkbWJ8YsoJEy3j8,10FE,
+frozen fence,,Ice,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_0_0,0_0,14756,ECXSEhvtE5XqvDLdW,39A4,"(0, 0)"
+frozen fence,,Ice blue,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_1_0,1_0,14756,kEgodfCvnHHwz9rdj,39A4,"(1, 0)"
+frozen fence,,Ice pink,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_2_0,2_0,14756,gpnuvutoCkkMppzxz,39A4,"(2, 0)"
+frozen fence,,Ice yellow,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_3_0,3_0,14756,qvbWqne5MX4Ddrdvn,39A4,"(3, 0)"
+frozen fence,,Ice orange,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_4_0,4_0,14756,nkFQQ4hRxxRHF38DD,39A4,"(4, 0)"
+frozen fence,,Ice green,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_5_0,5_0,14756,Cq4BQyuvbqHvzDy8y,39A4,"(5, 0)"
+frozen fence,,Ice purple,Illumination,Yes,Yes,1.0,Normal,1000.0,50,NFS,200,Crafting,,snowflakes,Yes,Not for sale,2.0.0,Yes,ItemFenceIce_Remake_6_0,6_0,14756,mGFKRECMp9YowP2Tv,39A4,"(6, 0)"
+green bamboo fence,,,,Yes,No,,,,50,NFS,96,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceCrossedBamboo,,14755,LhbRFhRy7eQiPbcSZ,39A3,
+hedge,,,,Yes,No,,,,50,NFS,55,Crafting,,,,Not for sale,1.2.0,Yes,ItemFenceIkegaki,,12758,TphLYSh2MdogHdheg,31D6,
+imperial fence,,,,Yes,No,,,,50,NFS,120,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceChinese,,4354,fHqt7TXfbhfKnPbwG,1102,
+iron fence,,Light blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_0_0,0_0,4357,RL5hL24NbwzE7zv3R,1105,"(0, 0)"
+iron fence,,Red,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_1_0,1_0,4357,MQmNibiLC5ujWPTjP,1105,"(1, 0)"
+iron fence,,Green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_2_0,2_0,4357,HEZZxvoKnMYyTRCeL,1105,"(2, 0)"
+iron fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_3_0,3_0,4357,dBoh8bTZLMfGJ44MX,1105,"(3, 0)"
+iron fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_4_0,4_0,4357,abxXLg4FGa52zwAA6,1105,"(4, 0)"
+iron fence,,Orange,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_5_0,5_0,4357,rJyoLsjrqB3j2Nwdt,1105,"(5, 0)"
+iron fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_6_0,6_0,4357,3hjxsDtdySLQGH5Ec,1105,"(6, 0)"
+iron fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,450,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSteel_Remake_7_0,7_0,4357,dtP7xARX2PdA7RtTx,1105,"(7, 0)"
+iron-and-stone fence,,,,Yes,No,,,,50,NFS,315,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceIronAndStone,,5206,kjSa4R6JQz2DtWQ2C,1456,
+large lattice fence,,Natural,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_0_0,0_0,5208,wABzTyF5CaorKLJq4,1458,"(0, 0)"
+large lattice fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_1_0,1_0,5208,haq4bAhYphv6KZWAR,1458,"(1, 0)"
+large lattice fence,,Brown,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_2_0,2_0,5208,nYAHybQMLgyFoiLRW,1458,"(2, 0)"
+large lattice fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_3_0,3_0,5208,tKSabkRhFJePzcoEP,1458,"(3, 0)"
+large lattice fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_4_0,4_0,5208,w2yhQpiefWQrFjwFJ,1458,"(4, 0)"
+large lattice fence,,Dark brown,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_5_0,5_0,5208,AmFmL5pujXKGcPbZn,1458,"(5, 0)"
+large lattice fence,,Green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_6_0,6_0,5208,5DqcA5RgRoDxhDtSk,1458,"(6, 0)"
+large lattice fence,,Purple,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLatticeBig_Remake_7_0,7_0,5208,TNLhzsvuSoQ5jd7ac,1458,"(7, 0)"
+lattice fence,,Natural,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_0_0,0_0,11712,qBrhYgaCnEiQYouP6,2DC0,"(0, 0)"
+lattice fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_1_0,1_0,11712,ebx7dWqi7wZaobni3,2DC0,"(1, 0)"
+lattice fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_2_0,2_0,11712,fK8rCXmhRdph5aMaq,2DC0,"(2, 0)"
+lattice fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_3_0,3_0,11712,aWJZvPEGR8J2QumhB,2DC0,"(3, 0)"
+lattice fence,,Pink,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_4_0,4_0,11712,NobD4hcBxcfJmQzJp,2DC0,"(4, 0)"
+lattice fence,,Light blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_5_0,5_0,11712,3E8SKqfFCTxB8re3S,2DC0,"(5, 0)"
+lattice fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_6_0,6_0,11712,Fx3c7yFA8eKfc2BGv,2DC0,"(6, 0)"
+lattice fence,,Purple,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceLatiiceNatural_Remake_7_0,7_0,11712,eNw32m5GGSnw6dGYd,2DC0,"(7, 0)"
+log fence,,,,Yes,No,,,,50,NFS,72,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceHorizontalLog,,4351,ifuDMxChXr5ZiHGsg,10FF,
+log-wall fence,,,,Yes,No,,,,50,NFS,120,Crafting,,,,Not for sale,2.0.0,Yes,ItemFenceLogWall,,5210,SZM2JpYHZwyL58kmw,145A,
+mermaid fence,,,,Yes,No,,,,50,NFS,1310,Crafting,,,,Not for sale,1.7.0,Yes,ItemFenceMermaid,,14278,ckHANkPvuKPj7P59Z,37C6,
+park fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_0_0,0_0,14759,mutLvn796ZQBRoLhP,39A7,"(0, 0)"
+park fence,,Red,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_1_0,1_0,14759,LjnqtWXGrmPP5hkRP,39A7,"(1, 0)"
+park fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_2_0,2_0,14759,mGDZJnNrDz73RDXaJ,39A7,"(2, 0)"
+park fence,,Lime,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_3_0,3_0,14759,vkQbtQ69HGj9HWHBQ,39A7,"(3, 0)"
+park fence,,Pink,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_4_0,4_0,14759,p7G4i7W7KQNKDXLHE,39A7,"(4, 0)"
+park fence,,Red & yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_5_0,5_0,14759,JMxdd29T9qjbGwxKA,39A7,"(5, 0)"
+park fence,,Pink & blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_6_0,6_0,14759,ELM8MNypnp77LoW9D,39A7,"(6, 0)"
+park fence,,Orange & green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,375,Crafting,,,,Not for sale,2.0.0,Yes,ItemFencePark_Remake_7_0,7_0,14759,7ycs8DgQMnXZ8rafq,39A7,"(7, 0)"
+rope fence,,,,Yes,No,,,,50,NFS,300,Crafting,,,,Not for sale,1.0.0,Yes,ItemFencePegRope,,4352,TpruAQnqeeYcDxPRj,1100,
+simple wooden fence,,Natural,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,50 fences are given by Tom Nook after completing the three house plots during the main storyline,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_0_0,0_0,11711,bxF62vutvYBw9BTDT,2DBF,"(0, 0)"
+simple wooden fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_1_0,1_0,11711,Kkmjn6BrdDfPz48e2,2DBF,"(1, 0)"
+simple wooden fence,,Brown,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_2_0,2_0,11711,tcxM3mJLsQD7YxEs8,2DBF,"(2, 0)"
+simple wooden fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_3_0,3_0,11711,vzoHZ9cnv4dipBnfh,2DBF,"(3, 0)"
+simple wooden fence,,Green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_4_0,4_0,11711,MC7D4yBEzoS6eLtkD,2DBF,"(4, 0)"
+simple wooden fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_5_0,5_0,11711,7FynyLiyuGG9KjNdE,2DBF,"(5, 0)"
+simple wooden fence,,Pink,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_6_0,6_0,11711,R7WyXriMCZxSWL8EE,2DBF,"(6, 0)"
+simple wooden fence,,Purple,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,72,Crafting; Tom Nook,,,,Not for sale,1.0.0,Yes,ItemFenceNatural_Remake_7_0,7_0,11711,X7ogyM8rtkLRuyjNk,2DBF,"(7, 0)"
+spiky fence,,,,Yes,No,,,,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceSharply,,4358,gYccyRpBzpFCLLW56,1106,
+spooky fence,,,,Yes,No,,,,50,NFS,585,Crafting,,Halloween (days before); Halloween,Yes,Not for sale,1.5.0,Yes,ItemFenceHalloween,,13275,yHsjxz9cexo9WbDaK,33DB,
+stone fence,,,,Yes,No,,,,50,NFS,60,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceStone,,5212,ECNmTH3oh3SEDpHCr,145C,
+straw fence,,,,Yes,No,,,,50,NFS,56,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceDriedStraw,,4356,yp69uEZTdfS9CkisA,1104,
+vertical-board fence,,Natural,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_0_0,0_0,3402,M9pkSgdAaKgQELi3E,0D4A,"(0, 0)"
+vertical-board fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_1_0,1_0,3402,XTLNrFZzoDh9cD8Kt,0D4A,"(1, 0)"
+vertical-board fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_2_0,2_0,3402,jTyiwMsmkaXCF7hLv,0D4A,"(2, 0)"
+vertical-board fence,,Green,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_3_0,3_0,3402,ecorj47DZedoZrbgW,0D4A,"(3, 0)"
+vertical-board fence,,Blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_4_0,4_0,3402,oDZA3KWp6jcJLhrkv,0D4A,"(4, 0)"
+vertical-board fence,,Pink,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_5_0,5_0,3402,T7ajqp3deFgf85jhn,0D4A,"(5, 0)"
+vertical-board fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_6_0,6_0,3402,EQeAKGbyKn8jNa89H,0D4A,"(6, 0)"
+vertical-board fence,,Purple,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,96,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceVerticalWood_Remake_7_0,7_0,3402,XB3YvXoDxSTyrZeMF,0D4A,"(7, 0)"
+wedding fence,,White,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_0_0,0_0,12894,68uMh2zjCmeJukYhv,325E,"(0, 0)"
+wedding fence,,Pink,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_1_0,1_0,12894,wqLxxBmRBhAqz2ePq,325E,"(1, 0)"
+wedding fence,,Mint,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_2_0,2_0,12894,A2HQdKp9W2soyevwG,325E,"(2, 0)"
+wedding fence,,Red,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_3_0,3_0,12894,jcQp3WdFzGCsBS2CC,325E,"(3, 0)"
+wedding fence,,Light blue,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_4_0,4_0,12894,Aaza388Cq4fuwp4fX,325E,"(4, 0)"
+wedding fence,,Yellow,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_5_0,5_0,12894,pat3RZ9KXysyjTcaL,325E,"(5, 0)"
+wedding fence,,Purple,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_6_0,6_0,12894,WMFk74bGc4zv3Lwbu,325E,"(6, 0)"
+wedding fence,,Black,Color,Yes,Yes,1.0,Normal,1000.0,50,NFS,411,Crafting,,Wedding Season,Yes,Not for sale,1.2.0,Yes,ItemFenceJuneBride_Remake_7_0,7_0,12894,87n6rkrTzLCKvZtRv,325E,"(7, 0)"
+zen fence,,Black,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_0_0,0_0,5207,yZeqREzefxeSiLAaP,1457,"(0, 0)"
+zen fence,,Blue,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_1_0,1_0,5207,DQ98iB35ebBfeZkHQ,1457,"(1, 0)"
+zen fence,,Red,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_2_0,2_0,5207,GjeRZJsbCypReqNZd,1457,"(2, 0)"
+zen fence,,Orange,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_3_0,3_0,5207,uN494SE8F6RfYDghH,1457,"(3, 0)"
+zen fence,,Yellow,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_4_0,4_0,5207,gAQntfadE2fF3yS8B,1457,"(4, 0)"
+zen fence,,Beige,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_5_0,5_0,5207,Puf3HzPMpWFCNxfog,1457,"(5, 0)"
+zen fence,,Green,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_6_0,6_0,5207,fJcjXSN2Emf86qRCc,1457,"(6, 0)"
+zen fence,,Purple,Roof-tile color,Yes,Yes,1.0,Normal,1000.0,50,NFS,330,Crafting,,,,Not for sale,1.0.0,Yes,ItemFenceJapanese_Remake_7_0,7_0,5207,w6mfAirx3RowXsYp5,1457,"(7, 0)"
