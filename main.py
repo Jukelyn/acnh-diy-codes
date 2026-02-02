@@ -1,3 +1,7 @@
+"""
+Script to process data to ensure it has the proper data in the correct
+format to be used in the web app.
+"""
 from pathlib import Path
 import pandas as pd
 
@@ -35,21 +39,21 @@ def add_variation_pattern_col(df: pd.DataFrame) -> None:
             make_variant_info)
 
 
-def make_variant_info(variantId: str) -> tuple[int, int]:
+def make_variant_info(variant_id: str) -> tuple[int, int]:
     """
     The column "Variant ID" has values either NaN or X_Y where X and Y are
     between 0 and 9. X are the variants, Y are the patterns.
 
     Args:
-        variantId (str): Variant ID of the item
+        variant_id (str): Variant ID of the item
 
     Returns:
         tuple[int, int]: Encoded variation + pattern.
     """
-    if not variantId or not isinstance(variantId, str):
+    if not variant_id or not isinstance(variant_id, str):
         return None  # No variations or patterns
 
-    variation, pattern = variantId.split("_")
+    variation, pattern = variant_id.split("_")
 
     return (int(variation), int(pattern) * 32)
 
@@ -123,12 +127,13 @@ if __name__ == "__main__":
     csv_files = data_folder.glob("*.csv")
 
     dfs = {}
+
     for file in data_folder.glob("*.csv"):
         dfs[file.stem] = pd.read_csv(file)
 
-    for df in dfs.values():
-        add_hex_id_col(df)
-        add_variation_pattern_col(df)
+    for dataframe in dfs.values():
+        add_hex_id_col(dataframe)
+        add_variation_pattern_col(dataframe)
 
-    for name, df in dfs.items():
-        df.to_csv(output_dir / f"{name}.csv", index=False)
+    for name, frame in dfs.items():
+        frame.to_csv(output_dir / f"{name}.csv", index=False)

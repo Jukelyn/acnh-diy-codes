@@ -1,28 +1,34 @@
+"""Tests the encoding for various items"""
 import pytest
 from main import get_encoded_item_variant
 
 
 def test_invalid_secondary_var():
+    """Tests an invalid pattern."""
     with pytest.raises(ValueError):
         get_encoded_item_variant("32D2", 1, 2)
 
 
 def test_invalid_variation():
+    """Tests an invalid variation."""
     with pytest.raises(TypeError):
         get_encoded_item_variant("32D2", None, 2)
 
 
 def test_invalid_pattern():
+    """Tests an invalid pattern."""
     with pytest.raises(TypeError):
         get_encoded_item_variant("32D2", 1, None)
 
 
 def test_invalid_params():
+    """Tests an invalid variation and pattern."""
     with pytest.raises(TypeError):
         get_encoded_item_variant("32D2", None, None)
 
 
 def test_no_real_variations():
+    """Tests no real change."""
     assert get_encoded_item_variant("32D2", 0, 0) == "32D2"
 
 
@@ -32,7 +38,15 @@ def test_no_real_variations():
     ("38EF", 3, "00000003000038EF"),
     ("38EF", 4, "00000004000038EF"),
 ])
-def test_variation(item, variation, expected):
+def test_variation(item: str, variation: int, expected: str):
+    """
+    Tests if just the item variations are encoded properly.
+
+    Args:
+        item (str): The item ID to test.
+        variation (int): The variation to test.
+        expected (str): The correct encoded string
+    """
     assert get_encoded_item_variant(item, variation) == expected
 
 
@@ -284,5 +298,15 @@ def test_variation(item, variation, expected):
     ("070B", 7, 160, "000000A70000070B"),
 ]
 )
-def test_double_variation(item, variation, pattern, expected):
+def test_double_variation(item: str, variation: int,
+                          pattern: int, expected: str):
+    """
+    Tests various items with varying numbers of variations and patterns.
+
+    Args:
+        item (str): The item ID to test.
+        variation (int): The variation to test.
+        pattern (int): The pattern to test.
+        expected (str): The correct encoded string.
+    """
     assert get_encoded_item_variant(item, variation, pattern) == expected
