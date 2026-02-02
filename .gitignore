@@ -1,7 +1,5 @@
 .vscode/*
 inputs/*
-!inputs/example.txt
-!inputs/list.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
