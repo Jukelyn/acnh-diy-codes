@@ -33,6 +33,7 @@ const PAGINATION_MAX_ROWS = 5;
 export function DataTable<CSVItem>({ columns, data }: DataTableProps<CSVItem>) {
   const [sorting, setSorting] = React.useState<SortingState>([]);
 
+  // eslint-disable-next-line react-hooks/incompatible-library
   const table = useReactTable({
     data,
     columns,
