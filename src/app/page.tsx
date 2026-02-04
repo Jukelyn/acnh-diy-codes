@@ -2,7 +2,14 @@
 
 import { useState, useEffect, useMemo } from "react";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { CopyButton } from "@/components/ui/copy-button";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { SelectedItemsTable } from "@/components/SelectedItemsTable";
 import { SearchSection } from "@/components/SearchSection";
 import { Textarea } from "@/components/ui/textarea";
@@ -243,7 +250,16 @@ export default function App() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Order Command</CardTitle>
+              <div className="flex items-center gap-2">
+                <CardTitle>Order Command</CardTitle>
+                <CardAction>
+                  <CopyButton
+                    variant="outline"
+                    size="icon-xs"
+                    value={orderCommand}
+                  />
+                </CardAction>
+              </div>
             </CardHeader>
             <CardContent>
               <Textarea
