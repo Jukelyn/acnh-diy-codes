@@ -23,17 +23,17 @@ jobs:
       #     echo "${{ secrets.ENV_FILE_B64 }}" | base64 -d > .env
       #   shell: bash
 
-      - name: SFTP Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.5
-        with:
-          username: ${{ secrets.SSH_USER }}
-          server: ${{ secrets.SSH_SERVER }}
-          port: ${{ secrets.SSH_SERVER_PORT }}
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+      # - name: SFTP Deploy
+      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.5
+      #   with:
+      #     username: ${{ secrets.SSH_USER }}
+      #     server: ${{ secrets.SSH_SERVER }}
+      #     port: ${{ secrets.SSH_SERVER_PORT }}
+      #     ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-          local_path: ./.env
-          remote_path: ${{ secrets.REMOTE_PATH }}
-          delete_remote_files: true
+      #     local_path: ./.env
+      #     remote_path: ${{ secrets.REMOTE_PATH }}
+      #     delete_remote_files: true
 
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.5
