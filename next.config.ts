@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   turbopack: {},
   allowedDevOrigins: ["http://192.168.8.106:3000"], // your IP + port
+  output: "standalone",
 };
 
 export default nextConfig;
