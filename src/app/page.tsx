@@ -1,14 +1,16 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { Textarea } from "@/components/ui/textarea";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { CSVItem, SelectedItem } from "@/lib/types";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { SelectedItemsTable } from "@/components/SelectedItemsTable";
 import { SearchSection } from "@/components/SearchSection";
-import { DATA_VERSION } from "@/lib/utils";
+import { Textarea } from "@/components/ui/textarea";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import { TooltipProvider } from "@/components/ui/tooltip";
+
+import { getEncodedItemVariant, unpackTuple, DATA_VERSION } from "@/lib/utils";
+import { CSVItem, SelectedItem } from "@/lib/types";
 
 export default function App() {
   const [data, setData] = useState<CSVItem[]>([]);
@@ -185,6 +187,24 @@ export default function App() {
     );
   };
 
+  const orderCommand = useMemo(() => {
+    if (selectedItems.length === 0) return "";
+
+    const encodedItems = selectedItems.map((item) => {
+      // Unpack var pat encoding into separate variables
+      const { variant, pattern } = unpackTuple(item["Variant Pattern Encoded"]);
+
+      // Pass the item hex ID and the unpacked variables
+      return getEncodedItemVariant(
+        item["Internal ID as hex"],
+        variant,
+        pattern,
+      );
+    });
+
+    return `[prefix]order ${encodedItems.join(" ")}`;
+  }, [selectedItems]);
+
   return (
     <TooltipProvider>
       <main className="min-h-screen bg-background p-6">
@@ -230,6 +250,7 @@ export default function App() {
                 readOnly
                 className="min-h-24 font-mono resize-none"
                 placeholder="[prefix]order ..."
+                value={orderCommand}
               />
             </CardContent>
           </Card>
