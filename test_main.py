@@ -63,7 +63,7 @@ def test_variation(item: str, variation: int, expected: str):
     ("0DE9", 1, 0, "0000000100000DE9"),
     ("0DE9", 1, 32, "0000002100000DE9"),
 
-    # Iron Hanger Stand 0x307A, 3 variations, 2 patterns
+    # Wedding Welcome Board 0x307A, 3 variations, 2 patterns
     ("307A", 0, 0, "307A"),
     ("307A", 0, 32, "000000200000307A"),
 
