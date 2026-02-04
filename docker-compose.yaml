@@ -1,0 +1,16 @@
+---
+services:
+  omega-bot:
+    container_name: omega-bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    networks:
+      - docker_default
+    ports:
+      - "23001:3000"
+
+networks:
+  docker_default:
+    external: true
