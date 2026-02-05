@@ -33,6 +33,7 @@ interface Props {
   onUpdatePattern: (id: string, val: string) => void;
   getVariations: (name: string) => string[];
   getPatterns: (name: string) => string[];
+  onClear: () => void;
 }
 
 export function SelectedItemsTable({
@@ -43,6 +44,7 @@ export function SelectedItemsTable({
   onUpdatePattern,
   getVariations,
   getPatterns,
+  onClear,
 }: Props) {
   const columns: ColumnDef<SelectedItem>[] = [
     {
@@ -145,7 +147,20 @@ export function SelectedItemsTable({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Selected Items ({items.length})</CardTitle>
+        <div className="flex justify-between">
+          <CardTitle>Selected Items ({items.length})</CardTitle>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button
+                variant="outline"
+                onClick={onClear}
+              >
+                Clear
+              </Button>
+            </TooltipTrigger>
+            <TooltipContent>Remove all items</TooltipContent>
+          </Tooltip>
+        </div>
       </CardHeader>
 
       <CardContent>

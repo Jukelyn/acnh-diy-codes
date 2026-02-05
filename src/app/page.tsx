@@ -242,8 +242,8 @@ export default function App() {
             onUpdatePattern={(id, newPattern) => {
               updateItemPattern(id, newPattern);
             }}
+            onClear={() => setSelectedItems([])}
           />
-
           <Card>
             <CardHeader>
               <div className="flex items-center justify-between w-full">
