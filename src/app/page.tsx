@@ -3,13 +3,8 @@
 import { useState, useEffect, useMemo } from "react";
 
 import { CopyButton } from "@/components/ui/copy-button";
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { PrefixSelector } from "@/components/prefix-selector";
 import { SelectedItemsTable } from "@/components/SelectedItemsTable";
 import { SearchSection } from "@/components/SearchSection";
 import { Textarea } from "@/components/ui/textarea";
@@ -24,6 +19,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [prefix, setPrefix] = useState("$");
 
   useEffect(() => {
     let cancelled = false;
@@ -209,8 +205,8 @@ export default function App() {
       );
     });
 
-    return `[prefix]order ${encodedItems.join(" ")}`;
-  }, [selectedItems]);
+    return `${prefix}order ${encodedItems.join(" ")}`;
+  }, [selectedItems, prefix]);
 
   return (
     <TooltipProvider>
@@ -250,15 +246,16 @@ export default function App() {
 
           <Card>
             <CardHeader>
-              <div className="flex items-center gap-2">
-                <CardTitle>Order Command</CardTitle>
-                <CardAction>
+              <div className="flex items-center justify-between w-full">
+                <div className="flex items-center gap-2">
+                  <CardTitle>Order Command</CardTitle>
                   <CopyButton
                     variant="outline"
                     size="icon-xs"
                     value={orderCommand}
                   />
-                </CardAction>
+                </div>
+                <PrefixSelector onPrefixChange={setPrefix} />
               </div>
             </CardHeader>
             <CardContent>
