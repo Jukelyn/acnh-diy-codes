@@ -29,10 +29,14 @@ export function CopyButton({
   const [hasCopied, setHasCopied] = React.useState(false);
 
   React.useEffect(() => {
-    setTimeout(() => {
-      setHasCopied(false);
-    }, 20);
-  }, []);
+    if (hasCopied) {
+      const timer = setTimeout(() => {
+        setHasCopied(false);
+      }, 1000); // 1 second delay to reset
+
+      return () => clearTimeout(timer);
+    }
+  }, [hasCopied]);
 
   return (
     <Tooltip>
@@ -53,7 +57,11 @@ export function CopyButton({
           {...props}
         >
           <span className="sr-only">Copy</span>
-          {hasCopied ? <Check /> : <Copy />}
+          {hasCopied ? (
+            <Check className="size-4 animate-in fade-in zoom-in duration-200" />
+          ) : (
+            <Copy className="size-4 animate-in fade-in zoom-in duration-200" />
+          )}
         </Button>
       </TooltipTrigger>
       <TooltipContent>{hasCopied ? "Copied" : tooltip}</TooltipContent>
