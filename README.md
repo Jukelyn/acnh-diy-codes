@@ -60,4 +60,5 @@ DIYs can be ordered from the bots but they do not follow the same pattern as ite
 
 It should also be noted that the following DIY recipes are unflyable, meaning that you would need to learn the DIY recipe at the island.
 
-TODO: Add unflyable DIYs list.
+![Unflyable 1.0](unflyable1.png)
+![Unflyable 2.0](unflyable2.png)
