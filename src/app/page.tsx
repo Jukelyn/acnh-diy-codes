@@ -34,37 +34,65 @@ export default function App() {
     async function loadAll() {
       try {
         setIsLoading(true);
+        const res = await fetch(`/api/datastream?v=${DATA_VERSION}`);
 
-        const res = await fetch(`/api/data?v=${DATA_VERSION}`);
+        if (!res.ok) throw new Error("Failed to fetch");
+        if (!res.body) throw new Error("No body in response");
 
-        if (!res.ok) {
-          throw new Error("Failed to fetch all datasets");
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+        let allItems: CSVItem[] = [];
+
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          if (cancelled) {
+            reader.cancel();
+            return;
+          }
+
+          buffer += decoder.decode(value, { stream: true });
+
+          const regex = /{[^{}]*}/g;
+          let match;
+          let lastIndex = 0;
+          const newBatch: CSVItem[] = [];
+
+          while ((match = regex.exec(buffer)) !== null) {
+            try {
+              const item = JSON.parse(match[0]) as CSVItem;
+
+              if (!ITEM_BLACKLIST.has(item["Internal ID as hex"])) {
+                newBatch.push(item);
+              }
+              lastIndex = regex.lastIndex;
+            } catch (e) {
+              break;
+            }
+          }
+
+          buffer = buffer.slice(lastIndex);
+
+          if (newBatch.length > 0) {
+            allItems = [...allItems, ...newBatch];
+            setData([...allItems]);
+          }
         }
 
-        const json = await res.json();
-
-        const merged = (
-          Object.values(json.datasets).flat() as CSVItem[]
-        ).filter((item) => !ITEM_BLACKLIST.has(item["Internal ID as hex"]));
-
-        const sortedMerged = [...merged].sort((a, b) =>
-          a.Name.localeCompare(b.Name),
-        );
-
         if (!cancelled) {
-          setData(sortedMerged);
+          setData((current) =>
+            [...current].sort((a, b) => a.Name.localeCompare(b.Name)),
+          );
         }
       } catch (err) {
-        console.error("Failed to load datasets:", err);
+        console.error("Streaming error:", err);
       } finally {
-        if (!cancelled) {
-          setIsLoading(false);
-        }
+        if (!cancelled) setIsLoading(false);
       }
     }
 
     loadAll();
-
     return () => {
       cancelled = true;
     };

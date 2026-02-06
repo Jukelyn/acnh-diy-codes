@@ -1,51 +1,102 @@
+// Streaming + Parsing json
 import { NextResponse } from "next/server";
-import { promises as fs } from "fs";
+import { createReadStream } from "fs";
 import path from "path";
-import Papa from "papaparse";
-
-import { datasets, DATA_VERSION } from "@/lib/utils";
 
 export async function GET() {
-  try {
-    const allData: Record<string, Record<string, string>[]> = {};
+  const jsonPath = path.join(process.cwd(), "src", "lib", "data.json");
 
-    for (const ds of datasets) {
-      const csvPath = path.join(process.cwd(), "processed_data", `${ds}.csv`);
+  // Create a Node.js Readable stream
+  const nodeStream = createReadStream(jsonPath);
 
-      const file = await fs.readFile(csvPath, "utf8");
+  // Convert Node stream to Web Stream (Next.js requirement)
+  const stream = new ReadableStream({
+    start(controller) {
+      nodeStream.on("data", (chunk) => controller.enqueue(chunk));
+      nodeStream.on("end", () => controller.close());
+      nodeStream.on("error", (err) => controller.error(err));
+    },
+    cancel() {
+      nodeStream.destroy();
+    },
+  });
 
-      const parsed = Papa.parse<Record<string, string>>(file, {
-        header: true,
-        skipEmptyLines: true,
-      });
+  return new NextResponse(stream, {
+    headers: {
+      "Content-Type": "application/json",
+      // Keep your caching strategy
+      "Cache-Control": "public, max-age=31536000, immutable",
+    },
+  });
+}
 
-      if (parsed.errors.length > 0) {
-        console.error(`CSV parse error in ${ds}:`, parsed.errors);
-        return NextResponse.json(
-          { error: `Failed to parse dataset: ${ds}` },
-          { status: 500 },
-        );
+/**
+useEffect(() => {
+  let cancelled = false;
+
+  async function loadAll() {
+    try {
+      setIsLoading(true);
+      const res = await fetch(`/api/data?v=${DATA_VERSION}`);
+      
+      if (!res.ok) throw new Error("Failed to fetch");
+      if (!res.body) throw new Error("No body in response");
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      let allItems: CSVItem[] = [];
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        if (cancelled) {
+          reader.cancel();
+          return;
+        }
+
+        buffer += decoder.decode(value, { stream: true });
+
+        const regex = /{[^{}]*}/g;
+        let match;
+        let lastIndex = 0;
+        const newBatch: CSVItem[] = [];
+
+        while ((match = regex.exec(buffer)) !== null) {
+          try {
+            const item = JSON.parse(match[0]) as CSVItem;
+            
+            if (!ITEM_BLACKLIST.has(item["Internal ID as hex"])) {
+              newBatch.push(item);
+            }
+            lastIndex = regex.lastIndex;
+          } catch (e) {
+            break;
+          }
+        }
+
+        buffer = buffer.slice(lastIndex);
+
+        if (newBatch.length > 0) {
+          allItems = [...allItems, ...newBatch];
+          setData([...allItems]);
+        }
       }
 
-      allData[ds] = parsed.data;
-    }
+      if (!cancelled) {
+        setData((current) => [...current].sort((a, b) => 
+          a.Name.localeCompare(b.Name)
+        ));
+      }
 
-    return NextResponse.json(
-      {
-        version: DATA_VERSION,
-        datasets: allData,
-      },
-      {
-        headers: {
-          "Cache-Control": "public, max-age=31536000, immutable",
-        },
-      },
-    );
-  } catch (err) {
-    console.error("Failed to load datasets:", err);
-    return NextResponse.json(
-      { error: "Failed to load datasets" },
-      { status: 500 },
-    );
+    } catch (err) {
+      console.error("Streaming error:", err);
+    } finally {
+      if (!cancelled) setIsLoading(false);
+    }
   }
-}
+
+  loadAll();
+  return () => { cancelled = true; };
+}, []);
+ */
