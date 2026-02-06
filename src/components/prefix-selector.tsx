@@ -7,7 +7,7 @@ export function PrefixSelector({ onPrefixChange }) {
   const [selection, setSelection] = useState("$");
   const [customValue, setCustomValue] = useState("");
 
-  const prefixes = ["$", "%", "#"];
+  const prefixes = ["$", "%", "#", "&"];
 
   useEffect(() => {
     const effectivePrefix = selection === "custom" ? customValue : selection;
@@ -23,7 +23,7 @@ export function PrefixSelector({ onPrefixChange }) {
         onValueChange={setSelection}
         className="flex flex-row items-center gap-3" // This makes it horizontal
       >
-        {["$", "%", "#"].map((sym) => (
+        {prefixes.map((sym) => (
           <Field
             key={sym}
             orientation="horizontal"
