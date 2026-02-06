@@ -1,8 +1,16 @@
-# ACNH DIY Codes for OmegaToGo Bots
+# Omega ToGo Bot Order Generator
 
 This project takes the data from the [ACNH data spreadsheet](https://tinyurl.com/acnh-sheet) and collects the data related to items that you can use to spawn sets using the Omega ToGo Bots from NooksTreasureIslands discord. Access to those bots are not discussed here.
 
-## Information
+## Upcoming features
+
+- [ ] Fix possibly problematic item codes or stick items.
+      ![not to order](stick_items.png)
+- [ ] Saving orders
+- [ ] Images but that might be a bit difficult to optimize.
+- [ ] Auth? Maybe.
+
+## Information and Notes
 
 Data is collated from the spreadsheet and the internal IDs are converted into hex. Many items have variations and the Omega ToGo Bots use this pattern for handling this:
 
@@ -44,6 +52,12 @@ Variations are 0 thru 7 (could not find one with more but this is safe up to 9, 
 Just do hex addition and pad it, if needed.
 ```
 
-It should also be noted that the following DIY recipes are unflyable:
+## DIY and Cooking Recipes (WIP)
 
-TBA
+There are a total of 924 recipes (783 DIY recipes and 141 cooking recipes), including those only obtainable via the Happy Home Paradise DLC. I'll be referring to both recipe types as just DIYs.
+
+DIYs can be ordered from the bots but they do not follow the same pattern as items. That is why there are two search boxes for items and DIYs.
+
+It should also be noted that the following DIY recipes are unflyable, meaning that you would need to learn the DIY recipe at the island.
+
+TODO: Add unflyable DIYs list.
