@@ -103,6 +103,7 @@ const inputGroupButtonVariants = cva(
 
 function InputGroupButton({
   className,
+  // @ts-ignore
   type = "button",
   variant = "ghost",
   size = "xs",
@@ -111,6 +112,7 @@ function InputGroupButton({
   VariantProps<typeof inputGroupButtonVariants>) {
   return (
     <Button
+      // @ts-ignore
       type={type}
       data-size={size}
       variant={variant}
