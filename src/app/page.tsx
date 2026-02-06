@@ -4,13 +4,13 @@ import { useState, useEffect, useMemo } from "react";
 
 import { CopyButton } from "@/components/ui/copy-button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Disclaimer } from "@/components/disclaimer";
 import { Footer } from "@/components/footer";
 import { PrefixSelector } from "@/components/prefix-selector";
 import { SelectedItemsTable } from "@/components/SelectedItemsTable";
 import { ItemSearchSection } from "@/components/ItemSearchSection";
 import { Textarea } from "@/components/ui/textarea";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { TooltipProvider } from "@/components/ui/tooltip";
 
 import {
   DATA_VERSION,
@@ -18,6 +18,7 @@ import {
   ITEM_BLACKLIST,
   unpackTuple,
 } from "@/lib/utils";
+
 import { CSVItem, SelectedItem } from "@/lib/types";
 
 export default function App() {
@@ -218,7 +219,7 @@ export default function App() {
   }, [selectedItems, prefix]);
 
   return (
-    <TooltipProvider>
+    <div>
       <main className="min-h-screen bg-background p-6">
         <div className="mx-auto max-w-7xl space-y-6">
           <header className="flex items-center justify-between">
@@ -228,6 +229,8 @@ export default function App() {
               <ThemeToggle />
             </div>
           </header>
+
+          <Disclaimer />
 
           <ItemSearchSection
             searchQuery={searchQuery}
@@ -279,6 +282,6 @@ export default function App() {
         </div>
       </main>
       <Footer />
-    </TooltipProvider>
+    </div>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,7 +24,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.className} antialiased dark`}
     >
-      <body className="bg-background text-foreground">{children}</body>
+      <TooltipProvider>
+        <body className="bg-background text-foreground">{children}</body>
+      </TooltipProvider>
     </html>
   );
 }
