@@ -8,10 +8,10 @@ export function Disclaimer() {
         <InfoIcon />
         <AlertTitle>Stick Items Disclaimer</AlertTitle>
         <AlertDescription className="text-black dark:text-white">
-          If you can't pick up the item in the game it's best NOT to request it
-          from the Bot. These items will be stuck in your inventory and you will
-          never be able to get rid of it. I filtered out many of the items that
-          do this but be cautious.
+          If you can&apos;t pick up the item in the game it&apos;s best NOT to
+          request it from the Bot. These items will be stuck in your inventory
+          and you will never be able to get rid of it. I filtered out many of
+          the items that do this but be cautious.
         </AlertDescription>
       </Alert>
     </div>
