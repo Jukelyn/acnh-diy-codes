@@ -9,7 +9,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Search, Plus } from "lucide-react";
 import { CSVItem } from "@/lib/types";
 import { Button } from "./ui/button";
-
+import { Spinner } from "./ui/spinner";
 interface ItemSearchSectionProps {
   searchQuery: string;
   setSearchQuery: (val: string) => void;
@@ -34,6 +34,7 @@ export function ItemSearchSection({
         <CardTitle className="flex items-center gap-2">
           <Search className="h-5 w-5" />
           Search Items ({searchResults.length})
+          {searchResults.length == 0 && <Spinner />}
         </CardTitle>
       </CardHeader>
       <CardContent>

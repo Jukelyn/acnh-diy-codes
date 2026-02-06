@@ -9,6 +9,7 @@ This project takes the data from the [ACNH data spreadsheet](https://tinyurl.com
 - [ ] Look into "Crafted Item Internal ID" vs "Internal ID"
 - [ ] Saving orders
 - [ ] Images but that might be a bit difficult to optimize.
+- [ ] Improve API performance. Currently: 25s on fast 4G, 2.4min on slow 4G, and 8min on 3G.
 - [ ] Auth? Maybe.
 
 ## Information and Notes
