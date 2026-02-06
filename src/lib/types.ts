@@ -1,4 +1,4 @@
-export interface CSVItem {
+export type CSVItem = {
   Name: string;
   "Internal ID": string;
   "Internal ID as hex": string;
@@ -8,7 +8,7 @@ export interface CSVItem {
   "Pattern Title"?: string;
   "Variant ID"?: string;
   "Variant Pattern Encoded"?: string;
-}
+};
 
 export interface SelectedItem extends CSVItem {
   id: string;

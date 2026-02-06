@@ -12,7 +12,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
-import { getEncodedItemVariant, unpackTuple, DATA_VERSION } from "@/lib/utils";
+import {
+  DATA_VERSION,
+  getEncodedItemVariant,
+  ITEM_BLACKLIST,
+  unpackTuple,
+} from "@/lib/utils";
 import { CSVItem, SelectedItem } from "@/lib/types";
 
 export default function App() {
@@ -37,7 +42,10 @@ export default function App() {
 
         const json = await res.json();
 
-        const merged = Object.values(json.datasets).flat() as CSVItem[];
+        const merged = (
+          Object.values(json.datasets).flat() as CSVItem[]
+        ).filter((item) => !ITEM_BLACKLIST.has(item["Internal ID as hex"]));
+
         const sortedMerged = [...merged].sort((a, b) =>
           a.Name.localeCompare(b.Name),
         );

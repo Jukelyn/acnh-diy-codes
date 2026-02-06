@@ -109,3 +109,144 @@ export const unpackTuple = (tupleStr: string | undefined) => {
     pattern: parseInt(matches[1], 10),
   };
 };
+
+/**
+ * These items are stick items and should not be requested therefore I will opt
+ * to just blacklist them from the search. Some of the items here have their
+ * "good" versions that won't stick and those are searchable (e.g. glowing moss,
+ *  vine, etc.).
+ */
+export const ITEM_BLACKLIST = new Set<string>([
+  // Moss
+  "02F7",
+  // Vine
+  "02F8",
+  // Meuniere
+  "35D3",
+  // Pumpkin Pie
+  "35D6",
+  // Weeds
+  "02F6",
+  // Clam chowder
+  "35D5",
+  // Gratin
+  "35D4",
+  // Bridge construction kit
+  "01CA",
+  // Bridge construction kit
+  "1C2B",
+  // Dream bridge kit
+  "038D",
+  // Bridge marker kit
+  "10D6",
+  // Campsite construction kit
+  "142E",
+  // Campsite construction kit
+  "01CD",
+  // Campsite moving kit
+  "1AB9",
+  // Shop construction kit
+  "0AC4",
+  // Tailors construction kit
+  "113B",
+  // Dream moving kit
+  "038A",
+  // Moving kit
+  "14EE",
+  // Shop Moving kit
+  "14F0",
+  // Museum Moving kit
+  "14F1",
+  // Tailors Moving kit
+  "14EF",
+  // Housing kit
+  "0D15",
+  // Plot 1 housing kit
+  "16C3",
+  // Plot 2 housing kit
+  "16C4",
+  // Plot 3 housing kit
+  "16C5",
+  // Delivery box
+  "1095",
+  // Decorated cedar tree
+  "373D",
+  // Gift
+  "35E1",
+  // Message bottle
+  "16A1",
+  // Pocket Organization Guide
+  "235C",
+  // Various permits
+  "2245",
+  "2246",
+  "2247",
+  "2248",
+  "2249",
+  "224A",
+  "224B",
+  "224C",
+  "224D",
+  "262B",
+  // Customizable Phone Case Kit
+  "2238",
+  // Other Phone Apps
+  "2F99",
+  "338B",
+  "374E",
+  "3964",
+  "3966",
+  // Present
+  "1180",
+  // Viva Festivale Reaction Set
+  "36EC",
+  // New Reactions Reactions Notebook
+  "39EC",
+  // Recipe
+  "1E37",
+  // Rock
+  "3738",
+  // Tent
+  "0ABE",
+  // Blather's Tent Marker
+  "0AC3",
+  // Transfer Kit
+  "3422",
+  // Treasure
+  "09F1",
+  // Wallpaper
+  "02F1",
+  // Wisp spirit piece
+  "125E",
+  // Produce Start
+  "02F5",
+  // Ladder set-up kit
+  "02EF",
+  // Hairstyles
+  "2359",
+  "235A",
+  "35C6",
+  "39ED",
+  // Be a Chef! DIY Recipes+
+  "3963",
+  // Body-Paint Costume Tips
+  "33C8",
+  // Exploring new eye colors
+  "33C9",
+  // Hip Reaction Collection
+  "352A",
+  // Island Life 101 Service
+  "39CC",
+  // Pretty Good Tools Recipes
+  "2405",
+  // Pro Camera App
+  "3967",
+  // Pro Construction License
+  "3A42",
+  // Pro Decorating License
+  "3965",
+  // Tool Ring: It's Essential!
+  "2590",
+  // Ultimate Pocket Stuffing
+  "2B84",
+]);

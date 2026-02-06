@@ -94,7 +94,18 @@ export function SelectedItemsTable({
 
     {
       accessorKey: "Internal ID as hex",
-      header: "Internal ID (hex)",
+      header: ({ column }) => {
+        return (
+          <Button
+            variant="ghost"
+            className="cursor-pointer"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Internal ID (hex)
+            <ArrowUpDown className="ml-2 h-4 w-4" />
+          </Button>
+        );
+      },
     },
 
     {

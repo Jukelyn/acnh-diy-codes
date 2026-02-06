@@ -4,8 +4,9 @@ This project takes the data from the [ACNH data spreadsheet](https://tinyurl.com
 
 ## Upcoming features
 
-- [ ] Fix possibly problematic item codes or stick items.
+- [x] ~~Fix possibly problematic item codes or stick items.~~ Filtered the ones I could find out.
       ![not to order](stick_items.png)
+- [ ] Look into "Crafted Item Internal ID" vs "Internal ID"
 - [ ] Saving orders
 - [ ] Images but that might be a bit difficult to optimize.
 - [ ] Auth? Maybe.

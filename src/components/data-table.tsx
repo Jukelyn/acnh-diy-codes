@@ -55,7 +55,7 @@ export function DataTable<CSVItem>({ columns, data }: DataTableProps<CSVItem>) {
   return (
     <div>
       <div className="overflow-hidden rounded-md border">
-        <Table className="table-fixed w-full">
+        <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
@@ -71,7 +71,7 @@ export function DataTable<CSVItem>({ columns, data }: DataTableProps<CSVItem>) {
                       key={header.id}
                       className={cn(
                         "first:pl-4 first:w-3xs last:pr-4 last:text-right",
-                        isSmall ? "w-30" : "w-auto",
+                        isSmall ? "w-32" : "w-auto",
                         header.column.id === "actions" && "text-right",
                       )}
                     >
