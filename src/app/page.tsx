@@ -4,9 +4,10 @@ import { useState, useEffect, useMemo } from "react";
 
 import { CopyButton } from "@/components/ui/copy-button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Footer } from "@/components/footer";
 import { PrefixSelector } from "@/components/prefix-selector";
 import { SelectedItemsTable } from "@/components/SelectedItemsTable";
-import { SearchSection } from "@/components/SearchSection";
+import { ItemSearchSection } from "@/components/ItemSearchSection";
 import { Textarea } from "@/components/ui/textarea";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -220,7 +221,7 @@ export default function App() {
             </div>
           </header>
 
-          <SearchSection
+          <ItemSearchSection
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
             searchResults={searchResults}
@@ -269,6 +270,7 @@ export default function App() {
           </Card>
         </div>
       </main>
+      <Footer />
     </TooltipProvider>
   );
 }

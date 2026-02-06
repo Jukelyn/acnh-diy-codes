@@ -10,7 +10,7 @@ import { Search, Plus } from "lucide-react";
 import { CSVItem } from "@/lib/types";
 import { Button } from "./ui/button";
 
-interface SearchSectionProps {
+interface ItemSearchSectionProps {
   searchQuery: string;
   setSearchQuery: (val: string) => void;
   searchResults: CSVItem[];
@@ -18,13 +18,13 @@ interface SearchSectionProps {
   isLoading: boolean;
 }
 
-export function SearchSection({
+export function ItemSearchSection({
   searchQuery,
   setSearchQuery,
   searchResults,
   addItem,
   isLoading,
-}: SearchSectionProps) {
+}: ItemSearchSectionProps) {
   const [isOpen, setIsOpen] = useState(false);
   const SEARCH_LIMIT = 50;
 
